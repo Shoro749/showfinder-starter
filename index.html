@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ShowFinder — пошук серіалів у TVmaze</title>
+    <meta name="description" content="Пошук серіалів через TVmaze API: результати, епізоди за сезонами й актори." />
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="src/main.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <h1 class="site-title">ShowFinder</h1>
+        <p class="site-tagline">Пошук серіалів у TVmaze</p>
+      </div>
+    </header>
+
+    <main class="container layout">
+      <section class="pane pane--search" aria-labelledby="results-heading">
+        <form id="search" class="search" role="search" aria-label="Пошук серіалів">
+          <label for="search-query">Назва серіалу</label>
+          <div class="search__row">
+            <input id="search-query" name="query" type="search" autocomplete="off" spellcheck="false" />
+            <button type="submit" class="btn btn--primary">Знайти</button>
+          </div>
+        </form>
+        <p id="status" class="status" role="status"></p>
+        <h2 id="results-heading" class="pane__heading">Результати</h2>
+        <div id="results" class="region"></div>
+      </section>
+
+      <section class="pane pane--details" aria-label="Сторінка серіалу">
+        <div id="details" class="region">
+          <p class="placeholder">Виберіть серіал у результатах пошуку.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer container">
+      <p>
+        Дані: <a href="https://www.tvmaze.com">TVmaze</a>
+        (<a href="https://www.tvmaze.com/api">TVmaze API</a>), ліцензія
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+      </p>
+    </footer>
+
+    <!-- Стани областей #results і #details. Стилі для них готові. -->
+    <template id="state-loading">
+      <p class="state state--loading"><span class="spinner" aria-hidden="true"></span>Завантаження…</p>
+    </template>
+
+    <template id="state-message">
+      <p class="state state--message"></p>
+    </template>
+
+    <template id="state-error">
+      <div class="state state--error">
+        <p class="state__text"></p>
+        <button type="button" class="btn" data-action="retry">Спробувати ще</button>
+      </div>
+    </template>
+  </body>
+</html>

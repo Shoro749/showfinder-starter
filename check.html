@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Самоперевірка — ShowFinder</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="check/check.css" />
+    <script type="module" src="check/main.js"></script>
+  </head>
+  <body>
+    <header class="intro">
+      <h1>Самоперевірка ShowFinder</h1>
+      <p>
+        Перевірка відкриває <code>index.html</code> у фреймі нижче й працює із застосунком як
+        користувач: вводить запит, натискає Enter, клікає по картках і «Спробувати ще». На запити
+        до TVmaze відповідає сама — записаними відповідями API, із затримкою, помилкою або обривом
+        з'єднання, — тож справжній API не потрібен. Код застосунку перевірка не читає. Номер і
+        назва кожного рядка — правило з ТЗ.
+      </p>
+      <p class="intro__run">
+        <button id="run" type="button">Перевірити ще раз</button>
+        <span id="summary" role="status">Перевірка не запускалася: потрібен JavaScript.</span>
+      </p>
+      <p class="intro__note">
+        Перевірка триває близько хвилини: правила про debounce і 429 чекають у реальному часі.
+        Справжній TVmaze, справжню помилку CORS і панель Network сторінка не бачить: для них є
+        ручний чек-лист у ТЗ.
+      </p>
+    </header>
+    <main class="layout">
+      <div id="results" class="results"></div>
+      <section class="stage-wrap" aria-labelledby="stage-title">
+        <h2 id="stage-title">Застосунок під час перевірки</h2>
+        <div id="stage" class="stage"></div>
+      </section>
+    </main>
+  </body>
+</html>

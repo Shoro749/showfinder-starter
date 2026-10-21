@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ShowFinder — офлайн-режим</title>
+    <link rel="icon" href="data:," />
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .banner {
+        margin: 0;
+        padding: 0.5rem 1rem;
+        color: #1b1f27;
+        background: #ffe08a;
+      }
+
+      iframe {
+        flex: 1;
+        width: 100%;
+        border: 0;
+      }
+    </style>
+    <!--
+      Той самий index.html, але запити до TVmaze отримують записані відповіді з check/fixtures/
+      через 0,25–0,9 с (check/net.js). Для заняття, коли TVmaze обмежує запити з однієї адреси
+      (429) або мережі немає. Змінювати цей файл не потрібно.
+    -->
+    <script type="module">
+      const frame = document.querySelector('iframe');
+      const response = await fetch('index.html', { cache: 'no-store' });
+      const html = await response.text();
+      frame.srcdoc = html.replace(/<head(\s[^>]*)?>/i, (tag) => `${tag}<script src="check/net.js" data-offline><\/script>`);
+    </script>
+  </head>
+  <body>
+    <p class="banner">
+      <strong>Офлайн-режим:</strong> відповіді TVmaze записані заздалегідь (кілька пошуків і шість
+      серіалів з епізодами). Для звіту й чек-листа Network потрібен <code>index.html</code>.
+    </p>
+    <iframe title="ShowFinder в офлайн-режимі"></iframe>
+  </body>
+</html>

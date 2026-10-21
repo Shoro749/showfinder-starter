@@ -1,0 +1,177 @@
+/* Сторінка самоперевірки. Змінювати не потрібно. */
+:root {
+  color-scheme: light dark;
+  --bg: light-dark(#f4f5f8, #121418);
+  --surface: light-dark(#ffffff, #1c1f25);
+  --text: light-dark(#1b1f27, #e9ebef);
+  --muted: light-dark(#585f6c, #a9b0bc);
+  --line: light-dark(#d5d9e0, #363b46);
+  --pass: light-dark(#17703a, #7ad79a);
+  --fail: light-dark(#b3261e, #ffb4ab);
+  --accent: light-dark(#1b5ed0, #82b1ff);
+
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1.5rem clamp(1rem, 3vw, 2rem) 3rem;
+  background: var(--bg);
+  color: var(--text);
+}
+
+h1 {
+  margin: 0 0 0.5rem;
+  font-size: 1.6rem;
+}
+
+h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.intro {
+  max-width: 60rem;
+  margin-bottom: 1.5rem;
+}
+
+.intro p {
+  margin: 0 0 0.75rem;
+}
+
+.intro__run {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+#summary {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+[data-state='passed'] #summary {
+  color: var(--pass);
+}
+
+[data-state='failed'] #summary,
+[data-state='error'] #summary {
+  color: var(--fail);
+}
+
+.intro__note {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+button {
+  min-height: 2.75rem;
+  padding: 0.5rem 1rem;
+  font: inherit;
+  font-weight: 600;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--muted);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: progress;
+  opacity: 0.6;
+}
+
+:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.layout {
+  display: grid;
+  gap: 1.5rem;
+}
+
+@media (min-width: 70rem) {
+  .layout {
+    grid-template-columns: minmax(0, 1fr) 34rem;
+    align-items: start;
+  }
+
+  .stage-wrap {
+    position: sticky;
+    top: 1rem;
+  }
+}
+
+.group {
+  margin-bottom: 1.25rem;
+  padding: 1rem 1.25rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+}
+
+.checks {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.checks li {
+  position: relative;
+  padding: 0.4rem 0 0.4rem 1.75rem;
+  border-top: 1px solid var(--line);
+}
+
+.checks li:first-child {
+  border-top: 0;
+}
+
+.mark {
+  position: absolute;
+  left: 0;
+  font-weight: 700;
+}
+
+.pass .mark {
+  color: var(--pass);
+}
+
+.fail .mark {
+  color: var(--fail);
+}
+
+.detail {
+  margin: 0.25rem 0 0;
+  color: var(--fail);
+  overflow-wrap: anywhere;
+}
+
+.stage iframe {
+  display: block;
+  width: 100%;
+  height: 36rem;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+code {
+  font-size: 0.95em;
+}

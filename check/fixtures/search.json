@@ -1,0 +1,2185 @@
+{
+ "source": "TVmaze API, https://www.tvmaze.com/api",
+ "license": "CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/",
+ "retrieved": "2026-10-13",
+ "changes": "Responses of GET /search/shows?q=… for the queries below. Show objects keep id, url, name, type, language, genres, status, runtime, averageRuntime, premiered, ended, rating, network and webChannel (id, name, country), image and summary.",
+ "queries": {
+  "girls": [
+   {
+    "score": 0.8969424,
+    "show": {
+     "id": 139,
+     "url": "https://www.tvmaze.com/shows/139/girls",
+     "name": "Girls",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Romance"
+     ],
+     "status": "Ended",
+     "runtime": 30,
+     "averageRuntime": 30,
+     "premiered": "2012-04-15",
+     "ended": "2017-04-16",
+     "rating": {
+      "average": 6.5
+     },
+     "network": {
+      "id": 8,
+      "name": "HBO",
+      "country": {
+       "name": "United States",
+       "code": "US"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/31/78286.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/31/78286.jpg"
+     },
+     "summary": "<p>This Emmy winning series is a comic look at the assorted humiliations and rare triumphs of a group of girls in their 20s.</p>"
+    }
+   },
+   {
+    "score": 0.8832536,
+    "show": {
+     "id": 41734,
+     "url": "https://www.tvmaze.com/shows/41734/girls",
+     "name": "GIRLS",
+     "type": "Scripted",
+     "language": "Mongolian",
+     "genres": [
+      "Comedy"
+     ],
+     "status": "Ended",
+     "runtime": 41,
+     "averageRuntime": 41,
+     "premiered": "2018-06-15",
+     "ended": "2019-10-14",
+     "rating": {
+      "average": null
+     },
+     "network": {
+      "id": 1672,
+      "name": "UBS",
+      "country": {
+       "name": "Mongolia",
+       "code": "MN"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/191/478539.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/191/478539.jpg"
+     },
+     "summary": null
+    }
+   },
+   {
+    "score": 0.6896552,
+    "show": {
+     "id": 525,
+     "url": "https://www.tvmaze.com/shows/525/gilmore-girls",
+     "name": "Gilmore Girls",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Comedy",
+      "Romance"
+     ],
+     "status": "Ended",
+     "runtime": 60,
+     "averageRuntime": 60,
+     "premiered": "2000-10-05",
+     "ended": "2007-05-15",
+     "rating": {
+      "average": 8
+     },
+     "network": {
+      "id": 5,
+      "name": "The CW",
+      "country": {
+       "name": "United States",
+       "code": "US"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/4/11308.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/4/11308.jpg"
+     },
+     "summary": "<p><b>Gilmore Girls</b> is a drama centering around the relationship between a thirtysomething single mother and her teen daughter living in Stars Hollow, Connecticut.</p>"
+    }
+   },
+   {
+    "score": 0.68938255,
+    "show": {
+     "id": 33320,
+     "url": "https://www.tvmaze.com/shows/33320/derry-girls",
+     "name": "Derry Girls",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Comedy"
+     ],
+     "status": "Ended",
+     "runtime": null,
+     "averageRuntime": 31,
+     "premiered": "2018-01-04",
+     "ended": "2022-05-18",
+     "rating": {
+      "average": 7.8
+     },
+     "network": {
+      "id": 45,
+      "name": "Channel 4",
+      "country": {
+       "name": "United Kingdom",
+       "code": "GB"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/402/1007479.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/402/1007479.jpg"
+     },
+     "summary": "<p>16-year-old Erin Quinn lives with her uncompromising mother, her long-suffering father and the fearsome ‘Granda Joe', a man whose love for his daughters and granddaughters is surpassed only by his contempt for his son-in-law.</p><p>It's the early 90s, and Erin is used to seeing her country on the nightly news and speaking in acronyms (The IRA, The UDA, The RUC). This is a time of armed police in armoured Land Rovers and British Army check points. But it's also the time of Murder She Wrote, The Cranberries, MJ and Lisa Marie, Doc Martens, bomber jackets, The X Files, Nirvana and Wayne's World. And while The Troubles may hang over her home town, Erin has troubles of her own</p>"
+    }
+   },
+   {
+    "score": 0.6878858,
+    "show": {
+     "id": 49334,
+     "url": "https://www.tvmaze.com/shows/49334/shining-girls",
+     "name": "Shining Girls",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Crime",
+      "Thriller",
+      "Supernatural"
+     ],
+     "status": "Ended",
+     "runtime": null,
+     "averageRuntime": 49,
+     "premiered": "2022-04-29",
+     "ended": "2022-06-03",
+     "rating": {
+      "average": 7.6
+     },
+     "network": null,
+     "webChannel": {
+      "id": 310,
+      "name": "Apple TV",
+      "country": null
+     },
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/406/1015813.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/406/1015813.jpg"
+     },
+     "summary": "<p><b>Shining Girls</b> is a metaphysical thriller, which follows a Chicago reporter who survived a brutal assault only to find her reality shifting as she hunts down her attacker.</p>"
+    }
+   },
+   {
+    "score": 0.68701094,
+    "show": {
+     "id": 67594,
+     "url": "https://www.tvmaze.com/shows/67594/dope-girls",
+     "name": "Dope Girls",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Crime",
+      "History"
+     ],
+     "status": "To Be Determined",
+     "runtime": null,
+     "averageRuntime": 53,
+     "premiered": "2025-02-22",
+     "ended": null,
+     "rating": {
+      "average": 5.6
+     },
+     "network": null,
+     "webChannel": {
+      "id": 26,
+      "name": "BBC iPlayer",
+      "country": {
+       "name": "United Kingdom",
+       "code": "GB"
+      }
+     },
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/556/1390988.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/556/1390988.jpg"
+     },
+     "summary": "<p>As WWI ends, housewife Kate Galloway sets up a nightclub in Soho to support her daughters. But Kate must contend with a dangerous gangster family and the police to survive.</p>"
+    }
+   },
+   {
+    "score": 0.6860095,
+    "show": {
+     "id": 3418,
+     "url": "https://www.tvmaze.com/shows/3418/anzac-girls",
+     "name": "ANZAC Girls",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "War",
+      "History"
+     ],
+     "status": "Ended",
+     "runtime": 60,
+     "averageRuntime": 60,
+     "premiered": "2014-08-10",
+     "ended": "2014-09-14",
+     "rating": {
+      "average": 7.4
+     },
+     "network": {
+      "id": 114,
+      "name": "ABC",
+      "country": {
+       "name": "Australia",
+       "code": "AU"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/17/44896.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/17/44896.jpg"
+     },
+     "summary": "<p>Honouring the Centenary of the commencement of WW1, <b>ANZAC Girls</b> is a moving new six-part series based on the unique, and rarely told true stories of Australian and New Zealand nurses serving at Gallipoli and the Western Front.</p>"
+    }
+   },
+   {
+    "score": 0.6860095,
+    "show": {
+     "id": 1073,
+     "url": "https://www.tvmaze.com/shows/1073/bomb-girls",
+     "name": "Bomb Girls",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Romance",
+      "War"
+     ],
+     "status": "Ended",
+     "runtime": 60,
+     "averageRuntime": 60,
+     "premiered": "2012-01-04",
+     "ended": "2013-04-29",
+     "rating": {
+      "average": 7.7
+     },
+     "network": {
+      "id": 67,
+      "name": "Global",
+      "country": {
+       "name": "Canada",
+       "code": "CA"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/7/17549.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/7/17549.jpg"
+     },
+     "summary": "<p>Set in the 1940s, <b>Bomb Girls</b> tells the remarkable stories of the women who risked their lives in a munitions factory building bombs for the Allied forces fighting on the European front. The series delves into the lives of these exceptional women – peers, friends and rivals – who find themselves thrust into new worlds and changed profoundly as they are liberated from their home and social restrictions.</p>"
+    }
+   },
+   {
+    "score": 0.6854968,
+    "show": {
+     "id": 1308,
+     "url": "https://www.tvmaze.com/shows/1308/bad-girls",
+     "name": "Bad Girls",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Crime",
+      "Romance"
+     ],
+     "status": "Ended",
+     "runtime": 60,
+     "averageRuntime": 61,
+     "premiered": "1999-06-01",
+     "ended": "2006-12-18",
+     "rating": {
+      "average": 8
+     },
+     "network": {
+      "id": 35,
+      "name": "ITV1",
+      "country": {
+       "name": "United Kingdom",
+       "code": "GB"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/7/18492.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/7/18492.jpg"
+     },
+     "summary": "<p>Step inside HMP Larkhall and meet the women of G-Wing, who've committed various offences that range from shoplifting to murder. <b>Bad Girls</b> shows what life is like for these women in the 'inside world' and also shows the real-life problems (and maybe behaviour!) of the officers who watch them!</p>"
+    }
+   },
+   {
+    "score": 0.6851852,
+    "show": {
+     "id": 23542,
+     "url": "https://www.tvmaze.com/shows/23542/good-girls",
+     "name": "Good Girls",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Comedy",
+      "Crime"
+     ],
+     "status": "Ended",
+     "runtime": 60,
+     "averageRuntime": 60,
+     "premiered": "2018-02-26",
+     "ended": "2021-07-22",
+     "rating": {
+      "average": 7.2
+     },
+     "network": {
+      "id": 1,
+      "name": "NBC",
+      "country": {
+       "name": "United States",
+       "code": "US"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/297/744253.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/297/744253.jpg"
+     },
+     "summary": "<p><b>Good Girls</b> follows three \"good girl\" suburban wives and mothers who suddenly find themselves in desperate circumstances and decide to stop playing it safe, and risk everything to take their power back.</p>"
+    }
+   }
+  ],
+  "gir": [
+   {
+    "score": 0.50852275,
+    "show": {
+     "id": 51915,
+     "url": "https://www.tvmaze.com/shows/51915/fjols-til-fjells",
+     "name": "Fjols til fjells",
+     "type": "Scripted",
+     "language": "Norwegian",
+     "genres": [
+      "Comedy"
+     ],
+     "status": "Ended",
+     "runtime": null,
+     "averageRuntime": 21,
+     "premiered": "2020-11-27",
+     "ended": "2021-01-08",
+     "rating": {
+      "average": null
+     },
+     "network": null,
+     "webChannel": {
+      "id": 173,
+      "name": "discovery+",
+      "country": null
+     },
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/383/957785.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/383/957785.jpg"
+     },
+     "summary": "<p><b>Fjols til fjells</b> is a comedy series about some of the most Norwegian things there is, cabin coziness on the winter mountains - and all that entails of idyll and relational disasters.</p>"
+    }
+   },
+   {
+    "score": 0.445341,
+    "show": {
+     "id": 77936,
+     "url": "https://www.tvmaze.com/shows/77936/vokteren",
+     "name": "Vokteren",
+     "type": "Reality",
+     "language": "Norwegian",
+     "genres": [
+      "Sports"
+     ],
+     "status": "Running",
+     "runtime": null,
+     "averageRuntime": 32,
+     "premiered": "2024-09-13",
+     "ended": null,
+     "rating": {
+      "average": null
+     },
+     "network": null,
+     "webChannel": {
+      "id": 327,
+      "name": "TV 2 Play",
+      "country": {
+       "name": "Norway",
+       "code": "NO"
+      }
+     },
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/534/1335459.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/534/1335459.jpg"
+     },
+     "summary": "<p>The goal is to climb the summit of Norway's national mountain, majestic Stetind (1,391 m.a.s.l.) in Narvik municipality in Nordland. On their backs, the participants each have a bag with a sum of money, in which NOK 2.1 million is divided equally between everyone. On their journey through the wilderness, they encounter surprising disputes and intense competitions and challenges, where they must make difficult and bold decisions that will affect both themselves and the group.</p>"
+    }
+   },
+   {
+    "score": 0.3536462,
+    "show": {
+     "id": 19445,
+     "url": "https://www.tvmaze.com/shows/19445/air",
+     "name": "Air",
+     "type": "Animation",
+     "language": "Japanese",
+     "genres": [
+      "Drama",
+      "Anime",
+      "Fantasy",
+      "Romance"
+     ],
+     "status": "Ended",
+     "runtime": 30,
+     "averageRuntime": 30,
+     "premiered": "2005-01-06",
+     "ended": "2005-09-04",
+     "rating": {
+      "average": 6.7
+     },
+     "network": {
+      "id": 159,
+      "name": "TBS",
+      "country": {
+       "name": "Japan",
+       "code": "JP"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/68/171225.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/68/171225.jpg"
+     },
+     "summary": "<p>Kunisaki Yukito is a traveller, ever seeking the 'girl in the sky' from a legend passed down in his family. His journey takes him to a small seaside town, where he meets Misuzu, a girl who seems eager to become his friend. A story spanning a thousand years begins to unfold against the background of their peculiar relationship.</p>"
+    }
+   },
+   {
+    "score": 0.3510618,
+    "show": {
+     "id": 18665,
+     "url": "https://www.tvmaze.com/shows/18665/sana-bir-sir-verecegim",
+     "name": "Sana Bir Sır Vereceğim",
+     "type": "Scripted",
+     "language": "Turkish",
+     "genres": [
+      "Drama",
+      "Fantasy",
+      "Mystery"
+     ],
+     "status": "Ended",
+     "runtime": 90,
+     "averageRuntime": 90,
+     "premiered": "2013-07-05",
+     "ended": "2013-12-15",
+     "rating": {
+      "average": null
+     },
+     "network": {
+      "id": 499,
+      "name": "NOW",
+      "country": {
+       "name": "Turkey",
+       "code": "TR"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/63/159752.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/63/159752.jpg"
+     },
+     "summary": "<p>A mother whose daughter has been kidnapped and a father who has lost his wife encounter five children with different extraordinary powers. Even though they all come from completely different lives, the unlikely team must become a family to protect themselves.</p>"
+    }
+   },
+   {
+    "score": 0.3462453,
+    "show": {
+     "id": 58970,
+     "url": "https://www.tvmaze.com/shows/58970/wir",
+     "name": "Wir",
+     "type": "Scripted",
+     "language": "German",
+     "genres": [
+      "Drama"
+     ],
+     "status": "Running",
+     "runtime": 22,
+     "averageRuntime": 22,
+     "premiered": "2021-09-17",
+     "ended": null,
+     "rating": {
+      "average": null
+     },
+     "network": {
+      "id": 512,
+      "name": "ZDFneo",
+      "country": {
+       "name": "Germany",
+       "code": "DE"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/441/1103423.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/441/1103423.jpg"
+     },
+     "summary": "<p>Helena, Annika, Emre, Linh and the rest of the gang are in their thirties and each in their own way is making it. But what exactly does it mean: \"make it\"? Build a house, have children, get a job? And doesn't the social pressure to succeed sometimes even within a group of friends degenerate into absurd competition?</p>"
+    }
+   },
+   {
+    "score": 0.32271585,
+    "show": {
+     "id": 12,
+     "url": "https://www.tvmaze.com/shows/12/lost-girl",
+     "name": "Lost Girl",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Fantasy",
+      "Horror"
+     ],
+     "status": "Ended",
+     "runtime": 60,
+     "averageRuntime": 60,
+     "premiered": "2010-09-12",
+     "ended": "2015-10-25",
+     "rating": {
+      "average": 7.9
+     },
+     "network": {
+      "id": 6,
+      "name": "Showcase",
+      "country": {
+       "name": "Canada",
+       "code": "CA"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/0/137.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/0/137.jpg"
+     },
+     "summary": "<p><b>Lost Girl</b> follows supernatural seductress Bo, a Succubus who feeds on the sexual energy of humans. Growing up with human parents, Bo had no reason to believe she was anything other than the girl next door — until she drained her boyfriend to death in their first sexual encounter. Now she has hit the road alone and afraid. <br /> She discovers she is one of the Fae, creatures of legend and folklore, who pass as humans while feeding off them secretly and in different ways, as they have for millennia. Relieved yet horrified to find out that she is not alone, Bo decides to take the middle path between the humans and the Fae while embarking on a personal mission to unlock the secrets of her origin.</p><p>With the help of her human sidekick, Kenzi, and Dyson, a sexy police detective, Bo takes on a challenge every week helping a Fae or human client who comes to her to solve a mystery, or to right a wrong.</p>"
+    }
+   },
+   {
+    "score": 0.3221631,
+    "show": {
+     "id": 86983,
+     "url": "https://www.tvmaze.com/shows/86983/crew-girl",
+     "name": "Crew Girl",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Romance"
+     ],
+     "status": "Running",
+     "runtime": null,
+     "averageRuntime": 46,
+     "premiered": "2026-09-10",
+     "ended": null,
+     "rating": {
+      "average": 6.2
+     },
+     "network": null,
+     "webChannel": {
+      "id": 1,
+      "name": "Netflix",
+      "country": null
+     },
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/640/1601998.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/640/1601998.jpg"
+     },
+     "summary": "<p>At Easton Prep, newcomer Teagan trades her oars for a cox seat on the boys-only rowing team — but can she earn their trust and lead them to victory?</p>"
+    }
+   },
+   {
+    "score": 0.3221631,
+    "show": {
+     "id": 58,
+     "url": "https://www.tvmaze.com/shows/58/new-girl",
+     "name": "New Girl",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Comedy",
+      "Romance"
+     ],
+     "status": "Ended",
+     "runtime": 30,
+     "averageRuntime": 30,
+     "premiered": "2011-09-20",
+     "ended": "2018-05-15",
+     "rating": {
+      "average": 7.3
+     },
+     "network": {
+      "id": 4,
+      "name": "FOX",
+      "country": {
+       "name": "United States",
+       "code": "US"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/481/1202650.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/481/1202650.jpg"
+     },
+     "summary": "<p><b>New Girl</b> is a single-camera ensemble comedy starring Zooey Deschanel as Jess, an offbeat girl who - after a bad breakup - moves in with three single guys and essentially sets a bomb off in their lives.</p>"
+    }
+   },
+   {
+    "score": 0.32188296,
+    "show": {
+     "id": 567,
+     "url": "https://www.tvmaze.com/shows/567/gossip-girl",
+     "name": "Gossip Girl",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Romance"
+     ],
+     "status": "Ended",
+     "runtime": 60,
+     "averageRuntime": 60,
+     "premiered": "2007-09-19",
+     "ended": "2012-12-17",
+     "rating": {
+      "average": 7.3
+     },
+     "network": {
+      "id": 5,
+      "name": "The CW",
+      "country": {
+       "name": "United States",
+       "code": "US"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/499/1247570.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/499/1247570.jpg"
+     },
+     "summary": "<p>The privileged prep school teens on Manhattan's Upper East Side first learn that notorious party girl Serena van der Woodsen is back in town the way they learn all the important news in their lives -- from the blog of the all-knowing albeit ultra-secretive <b>Gossip Girl</b>. No one knows Gossip Girl's identity, but everyone in this exclusive and complicated vicious circle relies on her website and text messages for the latest scoop. Even Serena's closest and most competitive friend, Blair Waldorf, is surprised to find that Serena has suddenly ended her self-imposed exile to boarding school and returned to Manhattan. This is a world you have to be born into, full of wealth, power, and prestige, keeping track of the constantly shifting friendships, jealousies and turmoil in this complex world isn't easy, but it's what Gossip Girl does best.</p>"
+    }
+   },
+   {
+    "score": 0.32178897,
+    "show": {
+     "id": 76501,
+     "url": "https://www.tvmaze.com/shows/76501/geek-girl",
+     "name": "Geek Girl",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Comedy",
+      "Romance"
+     ],
+     "status": "Running",
+     "runtime": null,
+     "averageRuntime": 34,
+     "premiered": "2024-05-30",
+     "ended": null,
+     "rating": {
+      "average": 7.5
+     },
+     "network": null,
+     "webChannel": {
+      "id": 1,
+      "name": "Netflix",
+      "country": null
+     },
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/521/1303825.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/521/1303825.jpg"
+     },
+     "summary": "<p>Harriet Manners' life is turned upside down when she's thrust into the world of fashion. Tightly wound agents, off-beat designers, impossibly high heels, a cute supermodel with a great smile, Harriet has no idea what she's in for.</p>"
+    }
+   }
+  ],
+  "law & order": [
+   {
+    "score": 1.4147599,
+    "show": {
+     "id": 562,
+     "url": "https://www.tvmaze.com/shows/562/law-order",
+     "name": "Law & Order",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Crime",
+      "Legal"
+     ],
+     "status": "Running",
+     "runtime": 60,
+     "averageRuntime": 60,
+     "premiered": "1990-09-13",
+     "ended": null,
+     "rating": {
+      "average": 7.4
+     },
+     "network": {
+      "id": 1,
+      "name": "NBC",
+      "country": {
+       "name": "United States",
+       "code": "US"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/644/1611219.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/644/1611219.jpg"
+     },
+     "summary": "<p>In the criminal justice system, the people are represented by two separate, yet equally important, groups: the police, who investigate crime; and the district attorneys, who prosecute the offenders. These are their stories.</p>"
+    }
+   },
+   {
+    "score": 1.4062926,
+    "show": {
+     "id": 32837,
+     "url": "https://www.tvmaze.com/shows/32837/law-and-order",
+     "name": "Law and Order",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Crime"
+     ],
+     "status": "Ended",
+     "runtime": 80,
+     "averageRuntime": 80,
+     "premiered": "1978-04-06",
+     "ended": "1978-04-27",
+     "rating": {
+      "average": null
+     },
+     "network": {
+      "id": 37,
+      "name": "BBC Two",
+      "country": {
+       "name": "United Kingdom",
+       "code": "GB"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/132/330366.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/132/330366.jpg"
+     },
+     "summary": "<p><b>Law and Order</b> is a series of four films about the law: those who keep it, those who break it and those who live off it.</p>"
+    }
+   },
+   {
+    "score": 1.2478676,
+    "show": {
+     "id": 867,
+     "url": "https://www.tvmaze.com/shows/867/law-order-la",
+     "name": "Law & Order: LA",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Crime",
+      "Legal"
+     ],
+     "status": "Ended",
+     "runtime": 60,
+     "averageRuntime": 60,
+     "premiered": "2010-09-29",
+     "ended": "2011-07-11",
+     "rating": {
+      "average": 7.1
+     },
+     "network": {
+      "id": 1,
+      "name": "NBC",
+      "country": {
+       "name": "United States",
+       "code": "US"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/262/657208.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/262/657208.jpg"
+     },
+     "summary": "<p>In the City of Los Angeles, the people are represented by two separate yet equally important groups: the police who investigate crime and the district attorneys who prosecute the offenders. These are their stories.</p>"
+    }
+   },
+   {
+    "score": 1.2337003,
+    "show": {
+     "id": 1262,
+     "url": "https://www.tvmaze.com/shows/1262/law-order-uk",
+     "name": "Law & Order: UK",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Crime",
+      "Legal"
+     ],
+     "status": "Ended",
+     "runtime": 60,
+     "averageRuntime": 60,
+     "premiered": "2009-02-23",
+     "ended": "2014-06-11",
+     "rating": {
+      "average": 7.3
+     },
+     "network": {
+      "id": 35,
+      "name": "ITV1",
+      "country": {
+       "name": "United Kingdom",
+       "code": "GB"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/334/836812.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/334/836812.jpg"
+     },
+     "summary": "<p>In the criminal justice system, the people are represented by two separate, yet equally important groups: the police who investigate crime, and the Crown Prosecutors who prosecute the offenders. These are their stories.<i><br></i></p>"
+    }
+   },
+   {
+    "score": 1.1384288,
+    "show": {
+     "id": 48631,
+     "url": "https://www.tvmaze.com/shows/48631/law-order-organized-crime",
+     "name": "Law & Order: Organized Crime",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Crime"
+     ],
+     "status": "Ended",
+     "runtime": null,
+     "averageRuntime": 58,
+     "premiered": "2021-04-01",
+     "ended": "2025-06-12",
+     "rating": {
+      "average": 7.5
+     },
+     "network": null,
+     "webChannel": {
+      "id": 347,
+      "name": "Peacock",
+      "country": {
+       "name": "United States",
+       "code": "US"
+      }
+     },
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/564/1410371.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/564/1410371.jpg"
+     },
+     "summary": "<p>In the nation's largest city, the vicious and violent members of the underworld are hunted by the detectives of the Organized Crime Control Bureau. These are their stories.</p>"
+    }
+   },
+   {
+    "score": 1.1380658,
+    "show": {
+     "id": 786,
+     "url": "https://www.tvmaze.com/shows/786/law-order-criminal-intent",
+     "name": "Law & Order: Criminal Intent",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Crime",
+      "Legal"
+     ],
+     "status": "Ended",
+     "runtime": 60,
+     "averageRuntime": 60,
+     "premiered": "2001-09-30",
+     "ended": "2011-06-26",
+     "rating": {
+      "average": 7.6
+     },
+     "network": {
+      "id": 30,
+      "name": "USA Network",
+      "country": {
+       "name": "United States",
+       "code": "US"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/19/47563.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/19/47563.jpg"
+     },
+     "summary": "<p>In New York City's war on crime, the worst criminal offenders are pursued by the detectives of the Major Case Squad. These are their stories.</p>"
+    }
+   },
+   {
+    "score": 1.1338685,
+    "show": {
+     "id": 15291,
+     "url": "https://www.tvmaze.com/shows/15291/law-order-true-crime",
+     "name": "Law & Order True Crime",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Crime",
+      "Legal"
+     ],
+     "status": "Ended",
+     "runtime": 60,
+     "averageRuntime": 60,
+     "premiered": "2017-09-26",
+     "ended": "2017-11-14",
+     "rating": {
+      "average": 7
+     },
+     "network": {
+      "id": 1,
+      "name": "NBC",
+      "country": {
+       "name": "United States",
+       "code": "US"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/123/307554.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/123/307554.jpg"
+     },
+     "summary": "<p>This true-crime installment of the powerhouse \"Law &amp; Order\" franchise delivers a gripping in-depth dramatization of the notorious murder case that changed America forever. When the Menendez brothers were tried on national TV for brutally killing their parents in Beverly Hills, their story became a national obsession. The first edition of this anthology series delves into the players, the crime and the media circus, detailing the day-to-day battles of the trial and unveiling the shocking truth of what really went down when the cameras stopped rolling.</p>"
+    }
+   },
+   {
+    "score": 1.0561296,
+    "show": {
+     "id": 103,
+     "url": "https://www.tvmaze.com/shows/103/law-order-special-victims-unit",
+     "name": "Law & Order: Special Victims Unit",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Crime",
+      "Legal"
+     ],
+     "status": "Running",
+     "runtime": 60,
+     "averageRuntime": 60,
+     "premiered": "1999-09-20",
+     "ended": null,
+     "rating": {
+      "average": 7.9
+     },
+     "network": {
+      "id": 1,
+      "name": "NBC",
+      "country": {
+       "name": "United States",
+       "code": "US"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/644/1611226.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/644/1611226.jpg"
+     },
+     "summary": "<p>In the criminal justice system, sexually-based offenses are considered especially heinous. In New York City, the dedicated detectives who investigate these vicious felonies are members of an elite squad known as the Special Victims Unit. These are their stories.</p>"
+    }
+   },
+   {
+    "score": 1.055861,
+    "show": {
+     "id": 69139,
+     "url": "https://www.tvmaze.com/shows/69139/law-order-toronto-criminal-intent",
+     "name": "Law & Order Toronto: Criminal Intent",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Crime",
+      "Legal"
+     ],
+     "status": "Running",
+     "runtime": 60,
+     "averageRuntime": 60,
+     "premiered": "2024-02-22",
+     "ended": null,
+     "rating": {
+      "average": 7.1
+     },
+     "network": {
+      "id": 151,
+      "name": "Citytv",
+      "country": {
+       "name": "Canada",
+       "code": "CA"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/643/1609923.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/643/1609923.jpg"
+     },
+     "summary": "<p>In Toronto's war on crime, the worst offenders are pursued by the detectives of the specialized criminal investigations unit. These are their stories.</p><p>As a psychological thriller wrapped in a criminal investigation, <b>Law &amp; Order Toronto: Criminal Intent</b><i> </i>follows an elite squad of detectives who investigate high-profile crime and corruption in metro Toronto.</p>"
+    }
+   },
+   {
+    "score": 1.0498247,
+    "show": {
+     "id": 3283,
+     "url": "https://www.tvmaze.com/shows/3283/law-order-trial-by-jury",
+     "name": "Law & Order: Trial by Jury",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Crime",
+      "Legal"
+     ],
+     "status": "Ended",
+     "runtime": 60,
+     "averageRuntime": 60,
+     "premiered": "2005-03-03",
+     "ended": "2006-01-21",
+     "rating": {
+      "average": 6.6
+     },
+     "network": {
+      "id": 1,
+      "name": "NBC",
+      "country": {
+       "name": "United States",
+       "code": "US"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/274/685591.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/274/685591.jpg"
+     },
+     "summary": "<p>In the criminal justice system, all defendants are innocent until proven guilty, either by confession, plea bargain, or trial by jury. This is one of those trials.</p>"
+    }
+   }
+  ],
+  "doctor": [
+   {
+    "score": 0.68974555,
+    "show": {
+     "id": 72724,
+     "url": "https://www.tvmaze.com/shows/72724/doctor-who",
+     "name": "Doctor Who",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Adventure",
+      "Science-Fiction"
+     ],
+     "status": "To Be Determined",
+     "runtime": null,
+     "averageRuntime": 48,
+     "premiered": "2023-11-25",
+     "ended": null,
+     "rating": {
+      "average": 6.7
+     },
+     "network": null,
+     "webChannel": {
+      "id": 26,
+      "name": "BBC iPlayer",
+      "country": {
+       "name": "United Kingdom",
+       "code": "GB"
+      }
+     },
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/564/1411489.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/564/1411489.jpg"
+     },
+     "summary": "<p>The Doctor and friends travel from the dawn of human history to distant alien worlds. And everywhere they go, they find adventure, terror, fun, chases, joy and monsters.</p>"
+    }
+   },
+   {
+    "score": 0.6896552,
+    "show": {
+     "id": 210,
+     "url": "https://www.tvmaze.com/shows/210/doctor-who",
+     "name": "Doctor Who",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Adventure",
+      "Science-Fiction"
+     ],
+     "status": "Ended",
+     "runtime": null,
+     "averageRuntime": 48,
+     "premiered": "2005-03-26",
+     "ended": "2022-10-23",
+     "rating": {
+      "average": 8.3
+     },
+     "network": {
+      "id": 12,
+      "name": "BBC One",
+      "country": {
+       "name": "United Kingdom",
+       "code": "GB"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/488/1220400.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/488/1220400.jpg"
+     },
+     "summary": "<p>Adventures across time and space with the time travelling alien and companions.</p>"
+    }
+   },
+   {
+    "score": 0.68938255,
+    "show": {
+     "id": 766,
+     "url": "https://www.tvmaze.com/shows/766/doctor-who",
+     "name": "Doctor Who",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Action",
+      "Adventure",
+      "Science-Fiction"
+     ],
+     "status": "Ended",
+     "runtime": 25,
+     "averageRuntime": 25,
+     "premiered": "1963-11-23",
+     "ended": "1996-05-12",
+     "rating": {
+      "average": 8.4
+     },
+     "network": {
+      "id": 12,
+      "name": "BBC One",
+      "country": {
+       "name": "United Kingdom",
+       "code": "GB"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/488/1221842.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/488/1221842.jpg"
+     },
+     "summary": "<p><b>Doctor Who</b> is the longest-running science fiction TV series in history, airing initially from 1963 to 1989. <i>Doctor Who</i> is about ideas. It pioneered sophisticated mixed-level storytelling. Its format was the key to its longevity: the Doctor, a mysterious traveller in space and time, travels in his ship, the TARDIS. The TARDIS can take him and his companions anywhere in time and space. Inevitably he finds evil at work wherever he goes..</p>"
+    }
+   },
+   {
+    "score": 0.6891074,
+    "show": {
+     "id": 3142,
+     "url": "https://www.tvmaze.com/shows/3142/doctor-foster",
+     "name": "Doctor Foster",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Medical"
+     ],
+     "status": "Running",
+     "runtime": 60,
+     "averageRuntime": 60,
+     "premiered": "2015-09-09",
+     "ended": null,
+     "rating": {
+      "average": 7.7
+     },
+     "network": {
+      "id": 12,
+      "name": "BBC One",
+      "country": {
+       "name": "United Kingdom",
+       "code": "GB"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/615/1538646.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/615/1538646.jpg"
+     },
+     "summary": "<p>A trusted GP sees her charmed life explode when she suspects her husband of an affair. As she uncovers secrets that shock her to the core, how will Dr. Gemma Foster react?</p>"
+    }
+   },
+   {
+    "score": 0.6888298,
+    "show": {
+     "id": 75508,
+     "url": "https://www.tvmaze.com/shows/75508/doctor-odyssey",
+     "name": "Doctor Odyssey",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Medical"
+     ],
+     "status": "Ended",
+     "runtime": 60,
+     "averageRuntime": 60,
+     "premiered": "2024-09-26",
+     "ended": "2025-05-15",
+     "rating": {
+      "average": 4.4
+     },
+     "network": {
+      "id": 3,
+      "name": "ABC",
+      "country": {
+       "name": "United States",
+       "code": "US"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/533/1334692.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/533/1334692.jpg"
+     },
+     "summary": "<p>Max is the new on-board doctor for a luxury cruise ship where the staff works hard and plays harder. It's all hands on deck as Max and his small but mighty medical team navigate unique medical crises and each other, miles from shore.</p>"
+    }
+   },
+   {
+    "score": 0.68487054,
+    "show": {
+     "id": 20303,
+     "url": "https://www.tvmaze.com/shows/20303/doctor-doctor",
+     "name": "Doctor Doctor",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Medical"
+     ],
+     "status": "Ended",
+     "runtime": 60,
+     "averageRuntime": 60,
+     "premiered": "2016-09-14",
+     "ended": "2021-06-23",
+     "rating": {
+      "average": 7.5
+     },
+     "network": {
+      "id": 120,
+      "name": "Nine Network",
+      "country": {
+       "name": "Australia",
+       "code": "AU"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/178/446527.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/178/446527.jpg"
+     },
+     "summary": "<p>After a spectacular fall from grace, high-flying heart surgeon Dr Hugh Knight receives a life-changing punishment from the Medical Tribunal - he is forced to work for a year as a country GP in his former home town of Whyhope.</p><p><b>Doctor Doctor</b> follows Hugh's attempt to rebuild his world in the town he has spent his whole life running away from. Now the only way to salvage his brilliant career is to work as a lowly GP in an under-resourced, small-town hospital surrounded by estranged family, former friends, crazed colleagues, oddball patients, jealous brothers and a newlywed ex-girlfriend.</p>"
+    }
+   },
+   {
+    "score": 0.6840164,
+    "show": {
+     "id": 7367,
+     "url": "https://www.tvmaze.com/shows/7367/doctor-stranger",
+     "name": "Doctor Stranger",
+     "type": "Scripted",
+     "language": "Korean",
+     "genres": [
+      "Drama",
+      "Romance",
+      "Medical"
+     ],
+     "status": "Ended",
+     "runtime": 70,
+     "averageRuntime": 65,
+     "premiered": "2014-05-05",
+     "ended": "2014-07-08",
+     "rating": {
+      "average": 7.3
+     },
+     "network": {
+      "id": 127,
+      "name": "SBS",
+      "country": {
+       "name": "Korea, Republic of",
+       "code": "KR"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/27/68060.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/27/68060.jpg"
+     },
+     "summary": "<p>The series will revolve around Park Hoon, a South Korean who was captured with his father and grows up in North Korea. He is trained to become a genius doctor, and though Park Hoon lands a job at the best South Korean hospital after defecting, he is treated as a foreigner. To find his lost North Korean first love, Song Jae Hee, he does anything to make money.</p>"
+    }
+   },
+   {
+    "score": 0.67419964,
+    "show": {
+     "id": 59338,
+     "url": "https://www.tvmaze.com/shows/59338/ghost-doctor",
+     "name": "Ghost Doctor",
+     "type": "Scripted",
+     "language": "Korean",
+     "genres": [
+      "Fantasy",
+      "Medical"
+     ],
+     "status": "Ended",
+     "runtime": 80,
+     "averageRuntime": 70,
+     "premiered": "2022-01-03",
+     "ended": "2022-02-22",
+     "rating": {
+      "average": 7.8
+     },
+     "network": {
+      "id": 280,
+      "name": "tvN",
+      "country": {
+       "name": "Korea, Republic of",
+       "code": "KR"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/382/956011.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/382/956011.jpg"
+     },
+     "summary": "<p>Cha Young Min is a genius doctor, but he is arrogant and selfish. One day, he gets involved in an unexpected case. Due to the unexpected case, his spirit possesses another doctor's body. These two doctors are complete opposites, with opposite personalities and medical abilities.</p>"
+    }
+   },
+   {
+    "score": 0.6722973,
+    "show": {
+     "id": 37907,
+     "url": "https://www.tvmaze.com/shows/37907/good-doctor",
+     "name": "Good Doctor",
+     "type": "Scripted",
+     "language": "Japanese",
+     "genres": [
+      "Drama",
+      "Medical"
+     ],
+     "status": "Ended",
+     "runtime": 46,
+     "averageRuntime": 46,
+     "premiered": "2018-07-12",
+     "ended": "2018-09-24",
+     "rating": {
+      "average": null
+     },
+     "network": {
+      "id": 131,
+      "name": "Fuji TV",
+      "country": {
+       "name": "Japan",
+       "code": "JP"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/163/408479.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/163/408479.jpg"
+     },
+     "summary": "<p>Minato Shindo is autistic and has savant syndrome. He has an amazing memory but he has difficulty communicating with other people. When he was a kid, Minato aspired to become a doctor. One day he met with Doctor Akira Shiga and amazed him by his ability to remember all the human organs at a young age. Doctor Akira committed to support Minato and upon the recommendation from him, Minato eventually enters the world of pediatric surgery as a resident.</p>"
+    }
+   },
+   {
+    "score": 0.67061144,
+    "show": {
+     "id": 32875,
+     "url": "https://www.tvmaze.com/shows/32875/doctor-mateo",
+     "name": "Doctor Mateo",
+     "type": "Scripted",
+     "language": "Spanish",
+     "genres": [
+      "Drama",
+      "Comedy"
+     ],
+     "status": "Ended",
+     "runtime": 80,
+     "averageRuntime": 80,
+     "premiered": "2009-02-22",
+     "ended": "2011-07-17",
+     "rating": {
+      "average": null
+     },
+     "network": {
+      "id": 97,
+      "name": "Antena 3",
+      "country": {
+       "name": "Spain",
+       "code": "ES"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/132/331125.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/132/331125.jpg"
+     },
+     "summary": "<p><b>Doctor Mateo</b> was a Spanish television comedy drama produced by Notro Films for Antena 3. It is an adaptation of the British series <i>Doc Martin</i>.</p>"
+    }
+   }
+  ],
+  "star": [
+   {
+    "score": 0.89352065,
+    "show": {
+     "id": 2746,
+     "url": "https://www.tvmaze.com/shows/2746/star",
+     "name": "Star",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Music"
+     ],
+     "status": "Ended",
+     "runtime": 60,
+     "averageRuntime": 60,
+     "premiered": "2016-12-14",
+     "ended": "2019-05-08",
+     "rating": {
+      "average": 7
+     },
+     "network": {
+      "id": 4,
+      "name": "FOX",
+      "country": {
+       "name": "United States",
+       "code": "US"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/88/222182.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/88/222182.jpg"
+     },
+     "summary": "<p>Featuring a soundtrack of original music and stunning music performances, <b>Star</b> follows three talented singers, desperate for a new start and with ambitions of stardom, as they navigate the cut-throat music business on their road to success. Meet Star, a tough-as-nails young woman, who came up in the foster care system and decides one day to take control of her destiny. Star tracks down her sister, Simone, and her Instagram bestie, Alexandra, and together, the trio journeys to Atlanta to become music superstars. Reality soon dawns on the girls' fantasies, and they start to learn that ambition often comes at a cost. And sometimes that cost is too high.</p>"
+    }
+   },
+   {
+    "score": 0.68983555,
+    "show": {
+     "id": 76191,
+     "url": "https://www.tvmaze.com/shows/76191/star-city",
+     "name": "Star City",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Science-Fiction",
+      "Thriller"
+     ],
+     "status": "To Be Determined",
+     "runtime": null,
+     "averageRuntime": 60,
+     "premiered": "2026-05-29",
+     "ended": null,
+     "rating": {
+      "average": 6.8
+     },
+     "network": null,
+     "webChannel": {
+      "id": 310,
+      "name": "Apple TV",
+      "country": null
+     },
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/622/1556438.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/622/1556438.jpg"
+     },
+     "summary": "<p><b>Star City </b>is a propulsive, paranoid thriller that takes us back to the key moment in the alt-history retelling of the space race — when the Soviet Union became the first nation to put a man on the moon. But this time, we explore the story from behind the Iron Curtain, showing the lives of the cosmonauts, the engineers and the intelligence officers embedded among them in the Soviet space program, and the risks they all took to propel humanity forward.</p>"
+    }
+   },
+   {
+    "score": 0.68938255,
+    "show": {
+     "id": 490,
+     "url": "https://www.tvmaze.com/shows/490/star-trek",
+     "name": "Star Trek",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Action",
+      "Adventure",
+      "Science-Fiction"
+     ],
+     "status": "Ended",
+     "runtime": 60,
+     "averageRuntime": 60,
+     "premiered": "1966-09-08",
+     "ended": "1969-06-03",
+     "rating": {
+      "average": 8.4
+     },
+     "network": {
+      "id": 1,
+      "name": "NBC",
+      "country": {
+       "name": "United States",
+       "code": "US"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/496/1242166.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/496/1242166.jpg"
+     },
+     "summary": "<p>The original <b>Star Trek</b> series focuses on the 23rd century adventures of Captain James T. Kirk and the U.S.S. <i>Enterprise </i>(NCC-1701), a powerful interstellar spacecraft dispatched by Earth-based Starfleet Command to explore the galaxy. Kirk commands a crew of 430 men and women aboard his starship, which can travel at speeds surpassing the speed of light. Kirk's five-year mission—and his mandate from Starfleet—is to seek out new life and new civilizations, and to boldly go where no man has gone before.</p>"
+    }
+   },
+   {
+    "score": 0.6883614,
+    "show": {
+     "id": 52178,
+     "url": "https://www.tvmaze.com/shows/52178/swallowed-star",
+     "name": "Swallowed Star",
+     "type": "Animation",
+     "language": "Chinese",
+     "genres": [
+      "Anime",
+      "Science-Fiction"
+     ],
+     "status": "Running",
+     "runtime": null,
+     "averageRuntime": 21,
+     "premiered": "2020-11-29",
+     "ended": null,
+     "rating": {
+      "average": 7.5
+     },
+     "network": null,
+     "webChannel": {
+      "id": 104,
+      "name": "Tencent QQ",
+      "country": {
+       "name": "China",
+       "code": "CN"
+      }
+     },
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/286/715165.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/286/715165.jpg"
+     },
+     "summary": "<p>One day, an unexplained RR virus appeared on the earth, drawing the world into disaster. Infected animals mutated into terrible monsters, invaded massively, and humans built walls around the destruction and established the base city as the last bastion for humans. The suffering that mankind has experienced during this period of time is known as the \"Great Nirvana Period.\" Not only that, Luo Feng not only carried the burden of supporting the family but also to protect the human homeland, for the better survival and development of mankind, together with other justice warriors, to join hands against the fierce monsters. Under the desperate situation of the end, can Luo Feng and other warriors repel monsters and successfully protect the human world?</p>"
+    }
+   },
+   {
+    "score": 0.68691224,
+    "show": {
+     "id": 16078,
+     "url": "https://www.tvmaze.com/shows/16078/tin-star",
+     "name": "Tin Star",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+     ],
+     "status": "Ended",
+     "runtime": null,
+     "averageRuntime": 58,
+     "premiered": "2017-09-07",
+     "ended": "2020-12-10",
+     "rating": {
+      "average": 7.1
+     },
+     "network": null,
+     "webChannel": {
+      "id": 27,
+      "name": "Now",
+      "country": null
+     },
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/284/710858.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/284/710858.jpg"
+     },
+     "summary": "<p>A contemporary take on the Western genre, <b>Tin Star</b> tells the story of Jim Worth, an ex-Metropolitan Police detective who starts a new life in Canada's Rocky Mountains.</p><p>Set in a remote Canadian mountain town, where the opening of a new oil refinery fronted by the mysterious Mrs. Bradshaw introduces the small town to a world of drug-dealers, prostitution and organized crime. Police chief Jim Worth is thirsty for revenge after the murder of a member of his family.</p>"
+    }
+   },
+   {
+    "score": 0.6832504,
+    "show": {
+     "id": 1692,
+     "url": "https://www.tvmaze.com/shows/1692/lone-star",
+     "name": "Lone Star",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama"
+     ],
+     "status": "Ended",
+     "runtime": 60,
+     "averageRuntime": 60,
+     "premiered": "2010-09-20",
+     "ended": "2010-09-27",
+     "rating": {
+      "average": 7.8
+     },
+     "network": {
+      "id": 4,
+      "name": "FOX",
+      "country": {
+       "name": "United States",
+       "code": "US"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/9/23701.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/9/23701.jpg"
+     },
+     "summary": "<p>A charismatic, brilliant schemer leads two different lives in two different parts of Texas. In Houston, he goes by Bob Allen and is married to Cat, part of a wealthy oil family. More than 400 miles away, in Midland, he's known as Robert and lives with naive girlfriend Lindsay. Bob's motive is to become part of the oil family with the goal of eventually cleaning it out. But when he fears his secret lives may unravel, Bob puts everything on the line in an attempt to keep his two separate relationships afloat.</p>"
+    }
+   },
+   {
+    "score": 0.68223906,
+    "show": {
+     "id": 3672,
+     "url": "https://www.tvmaze.com/shows/3672/star-maidens",
+     "name": "Star Maidens",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Science-Fiction"
+     ],
+     "status": "Ended",
+     "runtime": 25,
+     "averageRuntime": 25,
+     "premiered": "1976-09-01",
+     "ended": "1976-12-01",
+     "rating": {
+      "average": null
+     },
+     "network": {
+      "id": 35,
+      "name": "ITV1",
+      "country": {
+       "name": "United Kingdom",
+       "code": "GB"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/18/47355.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/18/47355.jpg"
+     },
+     "summary": "<p>TV series of British/German origin, and set in the \"present\" Earth of the 1970s. A planet from another solar system drifts into Earth's system and is detected by some Earth scientists who investigate. The surface of this planet is no longer habitable and the residents have moved to a high-tech underground city. The society is ruled by the women, who of course, are all beautiful. Men are considered mentally inferior and are divided into two categories: the \"adequately intelligent\" who are selected by women to act as their personal \"domestics\" for household chores, and the remainder who are forced to perform menial labor under the supervision of female guards. The guards are attired nicely in visored helmets, boots, hot pants, and elbow-length gloves which are used to control the men through some sort of apparent force. Scientists from Earth (one men and one woman) find their way to the planet</p>"
+    }
+   },
+   {
+    "score": 0.6818951,
+    "show": {
+     "id": 20982,
+     "url": "https://www.tvmaze.com/shows/20982/instant-star",
+     "name": "Instant Star",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Music"
+     ],
+     "status": "Ended",
+     "runtime": 30,
+     "averageRuntime": 30,
+     "premiered": "2004-09-15",
+     "ended": "2008-07-28",
+     "rating": {
+      "average": null
+     },
+     "network": {
+      "id": 48,
+      "name": "CTV",
+      "country": {
+       "name": "Canada",
+       "code": "CA"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/74/185146.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/74/185146.jpg"
+     },
+     "summary": "<p>In this teen drama with a bit of a musical twist, Instant Star is about a 15 year old girl, named Jude Harrison, who won a singer/songwriter contest and a guaranteed recording contract. The \"Feisty\" and \"Punk\" singer Jude Harrison is unprepared for the world of fame. Jude learns that managing her career, and her personal life, is harder than it seems. She's wading through a world bigger than her wildest rock 'n' roll dreams - parties and publicity, groupies and paparazzi, managers, producers, release dates, and concerts. Jude's desperate to prove she belongs there, but she's not even old enough to drive.</p>"
+    }
+   },
+   {
+    "score": 0.6803633,
+    "show": {
+     "id": 6947,
+     "url": "https://www.tvmaze.com/shows/6947/outlaw-star",
+     "name": "Outlaw Star",
+     "type": "Animation",
+     "language": "Japanese",
+     "genres": [
+      "Drama",
+      "Comedy",
+      "Anime",
+      "Science-Fiction"
+     ],
+     "status": "Ended",
+     "runtime": 30,
+     "averageRuntime": 30,
+     "premiered": "1998-01-08",
+     "ended": "1998-06-25",
+     "rating": {
+      "average": 6.8
+     },
+     "network": {
+      "id": 76,
+      "name": "TV Tokyo",
+      "country": {
+       "name": "Japan",
+       "code": "JP"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/26/65378.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/26/65378.jpg"
+     },
+     "summary": "<p>After Gene Starwind and his associate Jim Hawking end up the owners of an advanced prototype spaceship after they take a bodyguard job for a mysterious outlaw. When they realize that the ship comes with a bio-android, Melfina, the crew quickly expands.</p>"
+    }
+   },
+   {
+    "score": 0.6765511,
+    "show": {
+     "id": 14527,
+     "url": "https://www.tvmaze.com/shows/14527/star-blazers",
+     "name": "Star Blazers",
+     "type": "Animation",
+     "language": "English",
+     "genres": [
+      "Action",
+      "Adventure",
+      "Anime",
+      "Science-Fiction"
+     ],
+     "status": "Ended",
+     "runtime": 30,
+     "averageRuntime": 30,
+     "premiered": "1974-10-06",
+     "ended": "1981-04-04",
+     "rating": {
+      "average": 7.3
+     },
+     "network": {
+      "id": 476,
+      "name": "YTV",
+      "country": {
+       "name": "Japan",
+       "code": "JP"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/49/122992.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/49/122992.jpg"
+     },
+     "summary": "<p>This series, created back in the 1970's is still a popular video and DVD release thirty years later! Now each of the 3 seasons can be bought in 3 sets. Each season featured a season long story along with great characterization and adventure, drama and humor! It is the primary series on which many later anime series are based, and sometimes copied. In fact the 2003 season of Star Trek Enterprise apparently adapted many of the best aspects of this series as both shows feature planet Earth in grave danger, and a single spaceship and its brave crew sent to another part of the cosmos to find a solution to the danger that threatens the very existance of humanity!</p>"
+    }
+   }
+  ],
+  "dark": [
+   {
+    "score": 0.89676195,
+    "show": {
+     "id": 17861,
+     "url": "https://www.tvmaze.com/shows/17861/dark",
+     "name": "Dark",
+     "type": "Scripted",
+     "language": "German",
+     "genres": [
+      "Drama",
+      "Science-Fiction",
+      "Supernatural"
+     ],
+     "status": "Ended",
+     "runtime": null,
+     "averageRuntime": 56,
+     "premiered": "2017-12-01",
+     "ended": "2020-06-27",
+     "rating": {
+      "average": 8.2
+     },
+     "network": null,
+     "webChannel": {
+      "id": 1,
+      "name": "Netflix",
+      "country": null
+     },
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/504/1262352.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/504/1262352.jpg"
+     },
+     "summary": "<p>A family saga with a supernatural twist, <b>Dark</b> is set in a German town in present day where the disappearance of two young children exposes the double lives and fractured relationships among four families.</p>"
+    }
+   },
+   {
+    "score": 0.6901042,
+    "show": {
+     "id": 61315,
+     "url": "https://www.tvmaze.com/shows/61315/dark-matter",
+     "name": "Dark Matter",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Science-Fiction",
+      "Thriller",
+      "Mystery"
+     ],
+     "status": "Running",
+     "runtime": null,
+     "averageRuntime": 54,
+     "premiered": "2024-05-08",
+     "ended": null,
+     "rating": {
+      "average": 7.5
+     },
+     "network": null,
+     "webChannel": {
+      "id": 310,
+      "name": "Apple TV",
+      "country": null
+     },
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/633/1584721.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/633/1584721.jpg"
+     },
+     "summary": "<p>Hailed as one of the best sci-fi novels of the decade, <b>Dark Matter</b> is a story about the road not taken. The series follows Jason Dessen, a physicist, professor, and family man who – one night while walking home on the streets of Chicago – is abducted into an alternate version of his life. Wonder quickly turns to nightmare when he tries to return to his reality amid the multiverse of lives he could have lived. In this labyrinth of mind-bending realities, he embarks on a harrowing journey to get back to his true family and save them from the most terrifying, unbeatable foe imaginable: himself.</p>"
+    }
+   },
+   {
+    "score": 0.6900149,
+    "show": {
+     "id": 1819,
+     "url": "https://www.tvmaze.com/shows/1819/dark-matter",
+     "name": "Dark Matter",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Action",
+      "Adventure",
+      "Science-Fiction"
+     ],
+     "status": "Ended",
+     "runtime": 60,
+     "averageRuntime": 60,
+     "premiered": "2015-06-12",
+     "ended": "2017-08-25",
+     "rating": {
+      "average": 8.2
+     },
+     "network": {
+      "id": 7,
+      "name": "CTV Sci-Fi Channel",
+      "country": {
+       "name": "Canada",
+       "code": "CA"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/122/305066.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/122/305066.jpg"
+     },
+     "summary": "<p>In <b>Dark Matter</b>, the crew of a derelict spaceship is awakened from stasis with no memories of who they are or how they got on board. Facing threats at every turn, they have to work together to survive a voyage charged with vengeance, betrayal and hidden secrets.</p>"
+    }
+   },
+   {
+    "score": 0.6899254,
+    "show": {
+     "id": 56325,
+     "url": "https://www.tvmaze.com/shows/56325/dark-winds",
+     "name": "Dark Winds",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Crime",
+      "Thriller",
+      "Mystery"
+     ],
+     "status": "Running",
+     "runtime": null,
+     "averageRuntime": 48,
+     "premiered": "2022-06-12",
+     "ended": null,
+     "rating": {
+      "average": 7.5
+     },
+     "network": null,
+     "webChannel": {
+      "id": 453,
+      "name": "AMC+",
+      "country": {
+       "name": "United States",
+       "code": "US"
+      }
+     },
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/613/1534425.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/613/1534425.jpg"
+     },
+     "summary": "<p>Based on the iconic <i>Leaphorn &amp; Chee</i> book series by Tony Hillerman, <b>Dark Winds</b> is a psychological thriller that follows two Navajo police officers in the 1970s Southwest, as their search for clues in a grisly double murder case forces them to challenge their own spiritual beliefs and come to terms with the trauma of their pasts.</p>"
+    }
+   },
+   {
+    "score": 0.6892911,
+    "show": {
+     "id": 85706,
+     "url": "https://www.tvmaze.com/shows/85706/the-dark",
+     "name": "The Dark",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Crime",
+      "Thriller"
+     ],
+     "status": "To Be Determined",
+     "runtime": null,
+     "averageRuntime": 46,
+     "premiered": "2026-07-12",
+     "ended": null,
+     "rating": {
+      "average": 6.5
+     },
+     "network": null,
+     "webChannel": {
+      "id": 54,
+      "name": "ITVX",
+      "country": {
+       "name": "United Kingdom",
+       "code": "GB"
+      }
+     },
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/631/1579666.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/631/1579666.jpg"
+     },
+     "summary": "<p>When the body of a young man is found eerily staged in the idyllic Scottish wilderness, detective Monica Kennedy fears this is just the beginning of a terrifying campaign that will strike the heart of a rural community.</p><p>As paranoia rises, suspicions and secrets are forced into the light, and the locals start to realise that there is a serial killer hidden amongst them. With her experience of dealing with the darkest of humanity Monica Kennedy quickly becomes entangled in a heightened game of cat and mouse with a cunning killer. Only she can stop this monster before he claims any more victims.</p><p>But when her own history creeps up on her, she begins to lose trust in her own judgement. Will it be her own actions that are the biggest risk to herself and her family?</p>"
+    }
+   },
+   {
+    "score": 0.6892911,
+    "show": {
+     "id": 554,
+     "url": "https://www.tvmaze.com/shows/554/dark-angel",
+     "name": "Dark Angel",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Action",
+      "Science-Fiction"
+     ],
+     "status": "Ended",
+     "runtime": 60,
+     "averageRuntime": 61,
+     "premiered": "2000-10-03",
+     "ended": "2002-05-03",
+     "rating": {
+      "average": 8.6
+     },
+     "network": {
+      "id": 4,
+      "name": "FOX",
+      "country": {
+       "name": "United States",
+       "code": "US"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/4/11610.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/4/11610.jpg"
+     },
+     "summary": "<p>In the year 2019 the U.S. has become a third world country in the wake of the Pulse - an electromagnetic shockwave unleashed by nuclear terrorists in 2009. This is Max's world, an unforgiving place even for a genetically engineered soldier like her. On the run from her creators and constantly in search of her past, Max joins forces with the idealistic cyberjournalist \"Eyes Only\". She's a revved-up girl trying to make a run-down world a better place.</p>"
+    }
+   },
+   {
+    "score": 0.68661416,
+    "show": {
+     "id": 13129,
+     "url": "https://www.tvmaze.com/shows/13129/dark-shadows",
+     "name": "Dark Shadows",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Fantasy",
+      "Horror"
+     ],
+     "status": "Ended",
+     "runtime": 30,
+     "averageRuntime": 30,
+     "premiered": "1966-06-27",
+     "ended": "1971-04-02",
+     "rating": {
+      "average": 8
+     },
+     "network": {
+      "id": 3,
+      "name": "ABC",
+      "country": {
+       "name": "United States",
+       "code": "US"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/45/112825.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/45/112825.jpg"
+     },
+     "summary": "<p>My name is Victoria Winters; In the small town of Collinsport Maine, lies the Collinwood mansion where the richest family in town resides. The Collins family has been plagued with troubles since the town was founded. There have been vampires, werewolves, witches, over zealous witch hunters and much more. We join their story as I, the new governess Victoria WInters arrives in town on my way to meet my new charge, David Collins. I am about to encounter strangeness I have never imagined in my wildest dreams.</p><p><b>Dark Shadows</b> is an American Gothic soap opera that originally aired weekdays on the ABC television network, from June 27, 1966 to April 2, 1971. The show depicted the lives, loves, trials and tribulations of the wealthy Collins family of Collinsport, Maine, where a number of supernatural occurrences take place.</p><p>The series became hugely popular when vampire Barnabas Collins (Jonathan Frid) appeared ten months into its run. <i>Dark Shadows</i> also featured ghosts, werewolves, zombies, man-made monsters, witches, warlocks, time travel, and a parallel universe. A small company of actors each played many roles; indeed, as actors came and went, some characters were played by more than one actor.</p><p><i>Dark Shadows</i> was distinguished by its vividly melodramatic performances, atmospheric interiors, memorable storylines, numerous dramatic plot twists, adventurous music score, broad cosmos of characters and heroic adventures. The original network run of the show lasted for nearly five years to amass 1,225 episodes.</p><p>It continues to enjoy an intense cult following</p>"
+    }
+   },
+   {
+    "score": 0.6844462,
+    "show": {
+     "id": 14104,
+     "url": "https://www.tvmaze.com/shows/14104/dark-shadows",
+     "name": "Dark Shadows",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Horror"
+     ],
+     "status": "Ended",
+     "runtime": 55,
+     "averageRuntime": 55,
+     "premiered": "1991-01-13",
+     "ended": "1991-03-22",
+     "rating": {
+      "average": null
+     },
+     "network": {
+      "id": 1,
+      "name": "NBC",
+      "country": {
+       "name": "United States",
+       "code": "US"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/48/120557.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/48/120557.jpg"
+     },
+     "summary": "<p><b>Dark Shadows</b> is a Remake of the 1966 soap opera of the same name. It starrs Ben Cross as Barnabas Collins.</p>"
+    }
+   },
+   {
+    "score": 0.684232,
+    "show": {
+     "id": 69447,
+     "url": "https://www.tvmaze.com/shows/69447/dark-marvels",
+     "name": "Dark Marvels",
+     "type": "Documentary",
+     "language": "English",
+     "genres": [
+      "History"
+     ],
+     "status": "To Be Determined",
+     "runtime": null,
+     "averageRuntime": 62,
+     "premiered": "2023-07-10",
+     "ended": null,
+     "rating": {
+      "average": 7.6
+     },
+     "network": {
+      "id": 53,
+      "name": "History",
+      "country": {
+       "name": "United States",
+       "code": "US"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/474/1186949.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/474/1186949.jpg"
+     },
+     "summary": "<p>Since the dawn of civilization through modern times, humankind's capacity for cruelty and darkness has known no bounds. <b>Dark Marvels</b> is a documentary series that explores the history and engineering behind the world's most diabolical inventions. From devious torture and death devices, to terrifying weapons of war, sinister spy tools, and games that kill, these are the fascinating origin stories of the innovations that emerged from the darkest recesses of the most wicked minds.</p><p>Compelling expert interviews, evocative recreations, archival footage, and premium 3D graphics unpack the twisted tales behind these nefarious technologies, their creators, and the historical figures who succumbed to their lethality. It's a heart-pounding probe into evil ingenuity, that shows the darkest marvel of all is the human imagination.</p>"
+    }
+   },
+   {
+    "score": 0.6817796,
+    "show": {
+     "id": 937,
+     "url": "https://www.tvmaze.com/shows/937/dark-blue",
+     "name": "Dark Blue",
+     "type": "Scripted",
+     "language": "English",
+     "genres": [
+      "Drama",
+      "Action",
+      "Crime"
+     ],
+     "status": "Ended",
+     "runtime": 60,
+     "averageRuntime": 60,
+     "premiered": "2009-07-15",
+     "ended": "2010-09-15",
+     "rating": {
+      "average": 7.9
+     },
+     "network": {
+      "id": 14,
+      "name": "TNT",
+      "country": {
+       "name": "United States",
+       "code": "US"
+      }
+     },
+     "webChannel": null,
+     "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/6/16180.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/6/16180.jpg"
+     },
+     "summary": "<p>Officer Carter Shaw and his team go undercover - sometimes too deep, among the criminals of modern-day Los Angeles.</p>"
+    }
+   }
+  ]
+ }
+}

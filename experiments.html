@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Експерименти ЛР-11</title>
+    <link rel="icon" href="data:," />
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+        line-height: 1.5;
+      }
+
+      body {
+        max-width: 44rem;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+
+      code {
+        font-size: 0.95em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Експерименти ЛР-11</h1>
+    <p>
+      Ця сторінка порожня навмисно: вона лише дає фрагментам з §4 справжнє походження (origin)
+      <code id="origin"></code>, з якого браузер надсилає запити й перевіряє CORS.
+    </p>
+    <ol>
+      <li>Відкрийте сторінку через Live Preview у Chrome або Edge, за адресою <code>http://127.0.0.1:…</code>.</li>
+      <li>DevTools (F12) → <strong>Network</strong>: увімкніть <strong>Preserve log</strong> і фільтр <strong>Fetch/XHR</strong>.</li>
+      <li>Перейдіть у <strong>Console</strong> і вставте фрагмент експерименту цілим.</li>
+      <li>Перед кожним експериментом очищайте Console і Network.</li>
+    </ol>
+    <script>
+      document.querySelector('#origin').textContent = location.origin;
+    </script>
+  </body>
+</html>

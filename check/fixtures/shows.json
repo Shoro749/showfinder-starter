@@ -1,0 +1,2085 @@
+{
+ "source": "TVmaze API, https://www.tvmaze.com/api",
+ "license": "CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/",
+ "retrieved": "2026-10-13",
+ "changes": "Responses of GET /shows/:id?embed[]=episodes&embed[]=cast. Show objects are trimmed as in search.json; episodes keep id, name, season, number, type, airdate and runtime; cast keeps person and character id and name.",
+ "shows": {
+  "12": {
+   "id": 12,
+   "url": "https://www.tvmaze.com/shows/12/lost-girl",
+   "name": "Lost Girl",
+   "type": "Scripted",
+   "language": "English",
+   "genres": [
+    "Drama",
+    "Fantasy",
+    "Horror"
+   ],
+   "status": "Ended",
+   "runtime": 60,
+   "averageRuntime": 60,
+   "premiered": "2010-09-12",
+   "ended": "2015-10-25",
+   "rating": {
+    "average": 7.9
+   },
+   "network": {
+    "id": 6,
+    "name": "Showcase",
+    "country": {
+     "name": "Canada",
+     "code": "CA"
+    }
+   },
+   "webChannel": null,
+   "image": {
+    "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/0/137.jpg",
+    "original": "https://static.tvmaze.com/uploads/images/original_untouched/0/137.jpg"
+   },
+   "summary": "<p><b>Lost Girl</b> follows supernatural seductress Bo, a Succubus who feeds on the sexual energy of humans. Growing up with human parents, Bo had no reason to believe she was anything other than the girl next door — until she drained her boyfriend to death in their first sexual encounter. Now she has hit the road alone and afraid. <br /> She discovers she is one of the Fae, creatures of legend and folklore, who pass as humans while feeding off them secretly and in different ways, as they have for millennia. Relieved yet horrified to find out that she is not alone, Bo decides to take the middle path between the humans and the Fae while embarking on a personal mission to unlock the secrets of her origin.</p><p>With the help of her human sidekick, Kenzi, and Dyson, a sexy police detective, Bo takes on a challenge every week helping a Fae or human client who comes to her to solve a mystery, or to right a wrong.</p>",
+   "_embedded": {
+    "episodes": [
+     {
+      "id": 490,
+      "name": "It's a Fae, Fae, Fae, Fae World",
+      "season": 1,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2010-09-12",
+      "runtime": 60
+     },
+     {
+      "id": 491,
+      "name": "Where There's a Will, There's a Fae",
+      "season": 1,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2010-09-19",
+      "runtime": 60
+     },
+     {
+      "id": 492,
+      "name": "Oh Kappa, My Kappa",
+      "season": 1,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2010-09-26",
+      "runtime": 60
+     },
+     {
+      "id": 493,
+      "name": "Faetal Attraction",
+      "season": 1,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2010-10-03",
+      "runtime": 60
+     },
+     {
+      "id": 494,
+      "name": "Dead Lucky",
+      "season": 1,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2010-10-17",
+      "runtime": 60
+     },
+     {
+      "id": 495,
+      "name": "Food for Thought",
+      "season": 1,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2010-10-24",
+      "runtime": 60
+     },
+     {
+      "id": 496,
+      "name": "ArachnoFaebia",
+      "season": 1,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2010-10-31",
+      "runtime": 60
+     },
+     {
+      "id": 497,
+      "name": "Vexed",
+      "season": 1,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2010-11-07",
+      "runtime": 60
+     },
+     {
+      "id": 498,
+      "name": "Fae Day",
+      "season": 1,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2010-11-14",
+      "runtime": 60
+     },
+     {
+      "id": 499,
+      "name": "The Mourning After",
+      "season": 1,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2010-11-21",
+      "runtime": 60
+     },
+     {
+      "id": 500,
+      "name": "Faetal Justice",
+      "season": 1,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2010-11-28",
+      "runtime": 60
+     },
+     {
+      "id": 501,
+      "name": "(Dis)Members Only",
+      "season": 1,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2010-12-05",
+      "runtime": 60
+     },
+     {
+      "id": 502,
+      "name": "Bloodlines",
+      "season": 1,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2010-12-12",
+      "runtime": 60
+     },
+     {
+      "id": 503,
+      "name": "Something Wicked This Fae Comes",
+      "season": 2,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2011-09-04",
+      "runtime": 60
+     },
+     {
+      "id": 504,
+      "name": "I Fought the Fae (and the Fae Won)",
+      "season": 2,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2011-09-11",
+      "runtime": 60
+     },
+     {
+      "id": 505,
+      "name": "Scream a Little Dream",
+      "season": 2,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2011-09-18",
+      "runtime": 60
+     },
+     {
+      "id": 506,
+      "name": "Mirror, Mirror",
+      "season": 2,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2011-09-25",
+      "runtime": 60
+     },
+     {
+      "id": 507,
+      "name": "BrotherFae of the Wolves",
+      "season": 2,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2011-10-02",
+      "runtime": 60
+     },
+     {
+      "id": 508,
+      "name": "It's Better to Burn Out Than Fae Away",
+      "season": 2,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2011-10-30",
+      "runtime": 60
+     },
+     {
+      "id": 509,
+      "name": "Fae Gone Wild",
+      "season": 2,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2011-11-06",
+      "runtime": 60
+     },
+     {
+      "id": 510,
+      "name": "Death Didn't Become Him",
+      "season": 2,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2011-11-13",
+      "runtime": 60
+     },
+     {
+      "id": 511,
+      "name": "Original Skin",
+      "season": 2,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2011-11-20",
+      "runtime": 60
+     },
+     {
+      "id": 512,
+      "name": "Raging Fae",
+      "season": 2,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2011-11-27",
+      "runtime": 60
+     },
+     {
+      "id": 513,
+      "name": "Can't See the Fae-rest",
+      "season": 2,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2011-12-04",
+      "runtime": 60
+     },
+     {
+      "id": 514,
+      "name": "Masks",
+      "season": 2,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2011-12-11",
+      "runtime": 60
+     },
+     {
+      "id": 515,
+      "name": "Barometz. Trick. Pressure",
+      "season": 2,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2011-12-18",
+      "runtime": 60
+     },
+     {
+      "id": 516,
+      "name": "Midnight Lamp",
+      "season": 2,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2012-01-22",
+      "runtime": 60
+     },
+     {
+      "id": 517,
+      "name": "Table for Fae",
+      "season": 2,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2012-01-29",
+      "runtime": 60
+     },
+     {
+      "id": 518,
+      "name": "School's Out",
+      "season": 2,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2012-02-12",
+      "runtime": 60
+     },
+     {
+      "id": 519,
+      "name": "The Girl Who Fae'd with Fire",
+      "season": 2,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2012-02-19",
+      "runtime": 60
+     },
+     {
+      "id": 520,
+      "name": "Fae-nted Love",
+      "season": 2,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2012-03-04",
+      "runtime": 60
+     },
+     {
+      "id": 521,
+      "name": "Truth and Consequences",
+      "season": 2,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2012-03-11",
+      "runtime": 60
+     },
+     {
+      "id": 522,
+      "name": "Lachlan's Gambit",
+      "season": 2,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2012-03-18",
+      "runtime": 60
+     },
+     {
+      "id": 523,
+      "name": "Into the Dark",
+      "season": 2,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2012-03-25",
+      "runtime": 60
+     },
+     {
+      "id": 524,
+      "name": "Flesh and Blood",
+      "season": 2,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2012-04-01",
+      "runtime": 60
+     },
+     {
+      "id": 525,
+      "name": "Caged Fae",
+      "season": 3,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2013-01-06",
+      "runtime": 60
+     },
+     {
+      "id": 526,
+      "name": "SubterrFaenean",
+      "season": 3,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2013-01-13",
+      "runtime": 60
+     },
+     {
+      "id": 527,
+      "name": "ConFaegion",
+      "season": 3,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2013-01-20",
+      "runtime": 60
+     },
+     {
+      "id": 528,
+      "name": "Fae-de to Black",
+      "season": 3,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2013-01-27",
+      "runtime": 60
+     },
+     {
+      "id": 529,
+      "name": "Faes Wide Shut",
+      "season": 3,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2013-02-10",
+      "runtime": 60
+     },
+     {
+      "id": 530,
+      "name": "The Kenzi Scale",
+      "season": 3,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2013-02-17",
+      "runtime": 60
+     },
+     {
+      "id": 531,
+      "name": "There's Bo Place Like Home",
+      "season": 3,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2013-03-03",
+      "runtime": 60
+     },
+     {
+      "id": 532,
+      "name": "Fae-ge Against the Machine",
+      "season": 3,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2013-03-10",
+      "runtime": 60
+     },
+     {
+      "id": 533,
+      "name": "Ceremony",
+      "season": 3,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2013-03-17",
+      "runtime": 60
+     },
+     {
+      "id": 534,
+      "name": "Delinquents",
+      "season": 3,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2013-03-24",
+      "runtime": 60
+     },
+     {
+      "id": 535,
+      "name": "Adventures in Fae-bysitting",
+      "season": 3,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2013-03-31",
+      "runtime": 60
+     },
+     {
+      "id": 536,
+      "name": "Hail, Hale",
+      "season": 3,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2013-04-07",
+      "runtime": 60
+     },
+     {
+      "id": 537,
+      "name": "Those Who Wander",
+      "season": 3,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2013-04-14",
+      "runtime": 60
+     },
+     {
+      "id": 538,
+      "name": "In Memoriam",
+      "season": 4,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2013-11-10",
+      "runtime": 60
+     },
+     {
+      "id": 539,
+      "name": "Sleeping Beauty School",
+      "season": 4,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2013-11-17",
+      "runtime": 60
+     },
+     {
+      "id": 540,
+      "name": "Lovers. Apart.",
+      "season": 4,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2013-11-24",
+      "runtime": 60
+     },
+     {
+      "id": 541,
+      "name": "Turn to Stone",
+      "season": 4,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2013-12-01",
+      "runtime": 60
+     },
+     {
+      "id": 542,
+      "name": "Let the Dark Times Roll",
+      "season": 4,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2013-12-08",
+      "runtime": 60
+     },
+     {
+      "id": 543,
+      "name": "Of All the Gin Joints",
+      "season": 4,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2013-12-15",
+      "runtime": 60
+     },
+     {
+      "id": 544,
+      "name": "La Fae Époque",
+      "season": 4,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2013-12-22",
+      "runtime": 60
+     },
+     {
+      "id": 545,
+      "name": "Groundhog Fae",
+      "season": 4,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2013-12-29",
+      "runtime": 60
+     },
+     {
+      "id": 546,
+      "name": "Destiny's Child",
+      "season": 4,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2014-01-12",
+      "runtime": 60
+     },
+     {
+      "id": 547,
+      "name": "Waves",
+      "season": 4,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2014-01-19",
+      "runtime": 60
+     },
+     {
+      "id": 548,
+      "name": "End of a Line",
+      "season": 4,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2014-01-26",
+      "runtime": 60
+     },
+     {
+      "id": 549,
+      "name": "Origin",
+      "season": 4,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2014-02-09",
+      "runtime": 60
+     },
+     {
+      "id": 550,
+      "name": "Dark Horse",
+      "season": 4,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2014-02-16",
+      "runtime": 60
+     },
+     {
+      "id": 551,
+      "name": "Like Hell - Part 1",
+      "season": 5,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2014-12-07",
+      "runtime": 60
+     },
+     {
+      "id": 58244,
+      "name": "Like Hell - Part 2",
+      "season": 5,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2014-12-14",
+      "runtime": 60
+     },
+     {
+      "id": 87176,
+      "name": "Big in Japan",
+      "season": 5,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2014-12-21",
+      "runtime": 60
+     },
+     {
+      "id": 101836,
+      "name": "When God Opens a Window",
+      "season": 5,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2014-12-28",
+      "runtime": 60
+     },
+     {
+      "id": 101837,
+      "name": "It's Your Lucky Fae",
+      "season": 5,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2015-01-04",
+      "runtime": 60
+     },
+     {
+      "id": 101838,
+      "name": "Clear Eyes, Fae Hearts",
+      "season": 5,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2015-01-11",
+      "runtime": 60
+     },
+     {
+      "id": 101839,
+      "name": "Here Comes the Night",
+      "season": 5,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2015-01-18",
+      "runtime": 60
+     },
+     {
+      "id": 120563,
+      "name": "End of Faes",
+      "season": 5,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2015-01-25",
+      "runtime": 60
+     },
+     {
+      "id": 206087,
+      "name": "44 Minutes to Save the World",
+      "season": 5,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2015-09-06",
+      "runtime": 60
+     },
+     {
+      "id": 212020,
+      "name": "Like Father, Like Daughter",
+      "season": 5,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2015-09-13",
+      "runtime": 60
+     },
+     {
+      "id": 212837,
+      "name": "Sweet Valkyrie High",
+      "season": 5,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2015-09-20",
+      "runtime": 60
+     },
+     {
+      "id": 232812,
+      "name": "Judgement Fae",
+      "season": 5,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2015-09-27",
+      "runtime": 60
+     },
+     {
+      "id": 278537,
+      "name": "Family Portrait",
+      "season": 5,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2015-10-04",
+      "runtime": 60
+     },
+     {
+      "id": 278538,
+      "name": "Follow the Yellow Trick Road",
+      "season": 5,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2015-10-11",
+      "runtime": 60
+     },
+     {
+      "id": 278540,
+      "name": "Let Them Burn",
+      "season": 5,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2015-10-18",
+      "runtime": 60
+     },
+     {
+      "id": 316120,
+      "name": "Rise",
+      "season": 5,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2015-10-25",
+      "runtime": 60
+     }
+    ],
+    "cast": [
+     {
+      "person": {
+       "id": 2237,
+       "name": "Anna Silk"
+      },
+      "character": {
+       "id": 557833,
+       "name": "Bo Dennis"
+      }
+     },
+     {
+      "person": {
+       "id": 2239,
+       "name": "Kris Holden-Ried"
+      },
+      "character": {
+       "id": 557834,
+       "name": "Dyson"
+      }
+     },
+     {
+      "person": {
+       "id": 2236,
+       "name": "Zoie Palmer"
+      },
+      "character": {
+       "id": 557835,
+       "name": "Lauren"
+      }
+     },
+     {
+      "person": {
+       "id": 2238,
+       "name": "Ksenia Solo"
+      },
+      "character": {
+       "id": 557836,
+       "name": "Kenzi"
+      }
+     }
+    ]
+   }
+  },
+  "139": {
+   "id": 139,
+   "url": "https://www.tvmaze.com/shows/139/girls",
+   "name": "Girls",
+   "type": "Scripted",
+   "language": "English",
+   "genres": [
+    "Drama",
+    "Romance"
+   ],
+   "status": "Ended",
+   "runtime": 30,
+   "averageRuntime": 30,
+   "premiered": "2012-04-15",
+   "ended": "2017-04-16",
+   "rating": {
+    "average": 6.5
+   },
+   "network": {
+    "id": 8,
+    "name": "HBO",
+    "country": {
+     "name": "United States",
+     "code": "US"
+    }
+   },
+   "webChannel": null,
+   "image": {
+    "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/31/78286.jpg",
+    "original": "https://static.tvmaze.com/uploads/images/original_untouched/31/78286.jpg"
+   },
+   "summary": "<p>This Emmy winning series is a comic look at the assorted humiliations and rare triumphs of a group of girls in their 20s.</p>",
+   "_embedded": {
+    "episodes": [
+     {
+      "id": 10820,
+      "name": "Pilot",
+      "season": 1,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2012-04-15",
+      "runtime": 30
+     },
+     {
+      "id": 10821,
+      "name": "Vagina Panic",
+      "season": 1,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2012-04-22",
+      "runtime": 30
+     },
+     {
+      "id": 10822,
+      "name": "All Adventurous Women Do",
+      "season": 1,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2012-04-29",
+      "runtime": 30
+     },
+     {
+      "id": 10823,
+      "name": "Hannah's Diary",
+      "season": 1,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2012-05-06",
+      "runtime": 30
+     },
+     {
+      "id": 10824,
+      "name": "Hard Being Easy",
+      "season": 1,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2012-05-13",
+      "runtime": 30
+     },
+     {
+      "id": 10825,
+      "name": "The Return",
+      "season": 1,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2012-05-20",
+      "runtime": 30
+     },
+     {
+      "id": 10826,
+      "name": "Welcome to Bushwick a.k.a. The Crackcident",
+      "season": 1,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2012-05-27",
+      "runtime": 30
+     },
+     {
+      "id": 10827,
+      "name": "Weirdos Need Girlfriends Too",
+      "season": 1,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2012-06-03",
+      "runtime": 30
+     },
+     {
+      "id": 10828,
+      "name": "Leave Me Alone",
+      "season": 1,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2012-06-10",
+      "runtime": 30
+     },
+     {
+      "id": 10829,
+      "name": "She Did",
+      "season": 1,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2012-06-17",
+      "runtime": 30
+     },
+     {
+      "id": 10830,
+      "name": "It's About Time",
+      "season": 2,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2013-01-13",
+      "runtime": 30
+     },
+     {
+      "id": 10831,
+      "name": "I Get Ideas",
+      "season": 2,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2013-01-20",
+      "runtime": 30
+     },
+     {
+      "id": 10832,
+      "name": "Bad Friend",
+      "season": 2,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2013-01-27",
+      "runtime": 30
+     },
+     {
+      "id": 10833,
+      "name": "It's a Shame About Ray",
+      "season": 2,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2013-02-02",
+      "runtime": 30
+     },
+     {
+      "id": 10834,
+      "name": "One Man's Trash",
+      "season": 2,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2013-02-10",
+      "runtime": 30
+     },
+     {
+      "id": 10835,
+      "name": "Boys",
+      "season": 2,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2013-02-17",
+      "runtime": 30
+     },
+     {
+      "id": 10836,
+      "name": "Video Games",
+      "season": 2,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2013-02-24",
+      "runtime": 30
+     },
+     {
+      "id": 10837,
+      "name": "It's Back",
+      "season": 2,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2013-03-03",
+      "runtime": 30
+     },
+     {
+      "id": 10838,
+      "name": "On All Fours",
+      "season": 2,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2013-03-10",
+      "runtime": 30
+     },
+     {
+      "id": 10839,
+      "name": "Together",
+      "season": 2,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2013-03-17",
+      "runtime": 30
+     },
+     {
+      "id": 10840,
+      "name": "Females Only",
+      "season": 3,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2014-01-12",
+      "runtime": 30
+     },
+     {
+      "id": 10841,
+      "name": "Truth or Dare",
+      "season": 3,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2014-01-12",
+      "runtime": 30
+     },
+     {
+      "id": 10842,
+      "name": "She Said OK",
+      "season": 3,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2014-01-19",
+      "runtime": 30
+     },
+     {
+      "id": 10843,
+      "name": "Dead Inside",
+      "season": 3,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2014-01-26",
+      "runtime": 30
+     },
+     {
+      "id": 10844,
+      "name": "Only Child",
+      "season": 3,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2014-02-01",
+      "runtime": 30
+     },
+     {
+      "id": 10845,
+      "name": "Free Snacks",
+      "season": 3,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2014-02-09",
+      "runtime": 30
+     },
+     {
+      "id": 10846,
+      "name": "Beach House",
+      "season": 3,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2014-02-16",
+      "runtime": 30
+     },
+     {
+      "id": 10847,
+      "name": "Incidentals",
+      "season": 3,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2014-02-23",
+      "runtime": 30
+     },
+     {
+      "id": 10848,
+      "name": "Flo",
+      "season": 3,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2014-03-02",
+      "runtime": 30
+     },
+     {
+      "id": 10849,
+      "name": "Role-Play",
+      "season": 3,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2014-03-09",
+      "runtime": 30
+     },
+     {
+      "id": 10850,
+      "name": "I Saw You",
+      "season": 3,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2014-03-16",
+      "runtime": 30
+     },
+     {
+      "id": 10851,
+      "name": "Two Plane Rides",
+      "season": 3,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2014-03-23",
+      "runtime": 30
+     },
+     {
+      "id": 40963,
+      "name": "Iowa",
+      "season": 4,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2015-01-11",
+      "runtime": 30
+     },
+     {
+      "id": 93523,
+      "name": "Triggering",
+      "season": 4,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2015-01-18",
+      "runtime": 30
+     },
+     {
+      "id": 93524,
+      "name": "Female Author",
+      "season": 4,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2015-01-25",
+      "runtime": 30
+     },
+     {
+      "id": 108508,
+      "name": "Cubbies",
+      "season": 4,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2015-02-08",
+      "runtime": 30
+     },
+     {
+      "id": 120501,
+      "name": "Sit-In",
+      "season": 4,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2015-02-15",
+      "runtime": 30
+     },
+     {
+      "id": 120502,
+      "name": "Close-Up",
+      "season": 4,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2015-02-22",
+      "runtime": 30
+     },
+     {
+      "id": 131210,
+      "name": "Ask Me My Name",
+      "season": 4,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2015-03-01",
+      "runtime": 30
+     },
+     {
+      "id": 131211,
+      "name": "Tad & Loreen & Avi & Shanaz",
+      "season": 4,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2015-03-08",
+      "runtime": 30
+     },
+     {
+      "id": 131212,
+      "name": "Daddy Issues",
+      "season": 4,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2015-03-15",
+      "runtime": 30
+     },
+     {
+      "id": 131213,
+      "name": "Home Birth",
+      "season": 4,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2015-03-22",
+      "runtime": 30
+     },
+     {
+      "id": 409239,
+      "name": "Wedding Day",
+      "season": 5,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2016-02-21",
+      "runtime": 30
+     },
+     {
+      "id": 530407,
+      "name": "Good Man",
+      "season": 5,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2016-02-28",
+      "runtime": 30
+     },
+     {
+      "id": 530408,
+      "name": "Japan",
+      "season": 5,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2016-03-06",
+      "runtime": 30
+     },
+     {
+      "id": 530409,
+      "name": "Old Loves",
+      "season": 5,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2016-03-13",
+      "runtime": 30
+     },
+     {
+      "id": 530410,
+      "name": "Queen for Two Days",
+      "season": 5,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2016-03-20",
+      "runtime": 30
+     },
+     {
+      "id": 530411,
+      "name": "The Panic in Central Park",
+      "season": 5,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2016-03-27",
+      "runtime": 30
+     },
+     {
+      "id": 616043,
+      "name": "Hello Kitty",
+      "season": 5,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2016-04-03",
+      "runtime": 30
+     },
+     {
+      "id": 621945,
+      "name": "Homeward Bound",
+      "season": 5,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2016-04-10",
+      "runtime": 30
+     },
+     {
+      "id": 621946,
+      "name": "Love Stories",
+      "season": 5,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2016-04-17",
+      "runtime": 30
+     },
+     {
+      "id": 621947,
+      "name": "I Love You Baby",
+      "season": 5,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2016-04-17",
+      "runtime": 30
+     },
+     {
+      "id": 840746,
+      "name": "All I Ever Wanted",
+      "season": 6,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2017-02-12",
+      "runtime": 45
+     },
+     {
+      "id": 1042712,
+      "name": "Hostage Situation",
+      "season": 6,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2017-02-19",
+      "runtime": 30
+     },
+     {
+      "id": 1042713,
+      "name": "American Bitch",
+      "season": 6,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2017-02-26",
+      "runtime": 30
+     },
+     {
+      "id": 1051439,
+      "name": "Painful Evacuation",
+      "season": 6,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2017-03-05",
+      "runtime": 30
+     },
+     {
+      "id": 1051440,
+      "name": "Gummies",
+      "season": 6,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2017-03-12",
+      "runtime": 30
+     },
+     {
+      "id": 1051441,
+      "name": "Full Disclosure",
+      "season": 6,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2017-03-19",
+      "runtime": 30
+     },
+     {
+      "id": 1070554,
+      "name": "The Bounce",
+      "season": 6,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2017-03-26",
+      "runtime": 30
+     },
+     {
+      "id": 1072979,
+      "name": "What Will We Do This Time About Adam?",
+      "season": 6,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2017-04-02",
+      "runtime": 30
+     },
+     {
+      "id": 1075768,
+      "name": "Goodbye Tour",
+      "season": 6,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2017-04-09",
+      "runtime": 30
+     },
+     {
+      "id": 1079686,
+      "name": "Latching",
+      "season": 6,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2017-04-16",
+      "runtime": 30
+     }
+    ],
+    "cast": [
+     {
+      "person": {
+       "id": 27410,
+       "name": "Lena Dunham"
+      },
+      "character": {
+       "id": 36886,
+       "name": "Hannah Horvath"
+      }
+     },
+     {
+      "person": {
+       "id": 11102,
+       "name": "Allison Williams"
+      },
+      "character": {
+       "id": 36887,
+       "name": "Marnie Michaels"
+      }
+     },
+     {
+      "person": {
+       "id": 27411,
+       "name": "Jemima Kirke"
+      },
+      "character": {
+       "id": 36888,
+       "name": "Jessa Johansson"
+      }
+     },
+     {
+      "person": {
+       "id": 16405,
+       "name": "Zosia Mamet"
+      },
+      "character": {
+       "id": 36889,
+       "name": "Shoshanna Shapiro"
+      }
+     },
+     {
+      "person": {
+       "id": 24858,
+       "name": "Adam Driver"
+      },
+      "character": {
+       "id": 36890,
+       "name": "Adam Sackler"
+      }
+     },
+     {
+      "person": {
+       "id": 24970,
+       "name": "Alex Karpovsky"
+      },
+      "character": {
+       "id": 36891,
+       "name": "Ray Ploshansky"
+      }
+     },
+     {
+      "person": {
+       "id": 27412,
+       "name": "Andrew Rannells"
+      },
+      "character": {
+       "id": 36892,
+       "name": "Elijah Krantz"
+      }
+     },
+     {
+      "person": {
+       "id": 4896,
+       "name": "Ebon Moss-Bachrach"
+      },
+      "character": {
+       "id": 37030,
+       "name": "Desi"
+      }
+     }
+    ]
+   }
+  },
+  "32837": {
+   "id": 32837,
+   "url": "https://www.tvmaze.com/shows/32837/law-and-order",
+   "name": "Law and Order",
+   "type": "Scripted",
+   "language": "English",
+   "genres": [
+    "Drama",
+    "Crime"
+   ],
+   "status": "Ended",
+   "runtime": 80,
+   "averageRuntime": 80,
+   "premiered": "1978-04-06",
+   "ended": "1978-04-27",
+   "rating": {
+    "average": null
+   },
+   "network": {
+    "id": 37,
+    "name": "BBC Two",
+    "country": {
+     "name": "United Kingdom",
+     "code": "GB"
+    }
+   },
+   "webChannel": null,
+   "image": {
+    "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/132/330366.jpg",
+    "original": "https://static.tvmaze.com/uploads/images/original_untouched/132/330366.jpg"
+   },
+   "summary": "<p><b>Law and Order</b> is a series of four films about the law: those who keep it, those who break it and those who live off it.</p>",
+   "_embedded": {
+    "episodes": [
+     {
+      "id": 1337770,
+      "name": "A Detective's Tale",
+      "season": 1,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1978-04-06",
+      "runtime": 80
+     },
+     {
+      "id": 1337771,
+      "name": "A Villain's Tale",
+      "season": 1,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1978-04-13",
+      "runtime": 75
+     },
+     {
+      "id": 1337772,
+      "name": "A Brief's Tale",
+      "season": 1,
+      "number": 3,
+      "type": "regular",
+      "airdate": "1978-04-20",
+      "runtime": 80
+     },
+     {
+      "id": 1337773,
+      "name": "A Prisoner's Tale",
+      "season": 1,
+      "number": 4,
+      "type": "regular",
+      "airdate": "1978-04-27",
+      "runtime": 85
+     }
+    ],
+    "cast": []
+   }
+  },
+  "33320": {
+   "id": 33320,
+   "url": "https://www.tvmaze.com/shows/33320/derry-girls",
+   "name": "Derry Girls",
+   "type": "Scripted",
+   "language": "English",
+   "genres": [
+    "Comedy"
+   ],
+   "status": "Ended",
+   "runtime": null,
+   "averageRuntime": 31,
+   "premiered": "2018-01-04",
+   "ended": "2022-05-18",
+   "rating": {
+    "average": 7.8
+   },
+   "network": {
+    "id": 45,
+    "name": "Channel 4",
+    "country": {
+     "name": "United Kingdom",
+     "code": "GB"
+    }
+   },
+   "webChannel": null,
+   "image": {
+    "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/402/1007479.jpg",
+    "original": "https://static.tvmaze.com/uploads/images/original_untouched/402/1007479.jpg"
+   },
+   "summary": "<p>16-year-old Erin Quinn lives with her uncompromising mother, her long-suffering father and the fearsome ‘Granda Joe', a man whose love for his daughters and granddaughters is surpassed only by his contempt for his son-in-law.</p><p>It's the early 90s, and Erin is used to seeing her country on the nightly news and speaking in acronyms (The IRA, The UDA, The RUC). This is a time of armed police in armoured Land Rovers and British Army check points. But it's also the time of Murder She Wrote, The Cranberries, MJ and Lisa Marie, Doc Martens, bomber jackets, The X Files, Nirvana and Wayne's World. And while The Troubles may hang over her home town, Erin has troubles of her own</p>",
+   "_embedded": {
+    "episodes": [
+     {
+      "id": 1370217,
+      "name": "Episode 1",
+      "season": 1,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2018-01-04",
+      "runtime": 30
+     },
+     {
+      "id": 1370218,
+      "name": "Episode 2",
+      "season": 1,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2018-01-11",
+      "runtime": 30
+     },
+     {
+      "id": 1370219,
+      "name": "Episode 3",
+      "season": 1,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2018-01-18",
+      "runtime": 30
+     },
+     {
+      "id": 1370220,
+      "name": "Episode 4",
+      "season": 1,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2018-01-25",
+      "runtime": 30
+     },
+     {
+      "id": 1370221,
+      "name": "Episode 5",
+      "season": 1,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2018-02-01",
+      "runtime": 30
+     },
+     {
+      "id": 1370222,
+      "name": "Episode 6",
+      "season": 1,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2018-02-08",
+      "runtime": 30
+     },
+     {
+      "id": 1612947,
+      "name": "Across the Barricade",
+      "season": 2,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2019-03-05",
+      "runtime": 30
+     },
+     {
+      "id": 1617426,
+      "name": "Ms. De Brún and the Child of Prague",
+      "season": 2,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2019-03-12",
+      "runtime": 30
+     },
+     {
+      "id": 1619214,
+      "name": "The Concert",
+      "season": 2,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2019-03-19",
+      "runtime": 30
+     },
+     {
+      "id": 1619215,
+      "name": "The Curse",
+      "season": 2,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2019-03-26",
+      "runtime": 30
+     },
+     {
+      "id": 1628220,
+      "name": "The Prom",
+      "season": 2,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2019-04-02",
+      "runtime": 30
+     },
+     {
+      "id": 1631064,
+      "name": "The President",
+      "season": 2,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2019-04-09",
+      "runtime": 30
+     },
+     {
+      "id": 2303872,
+      "name": "The Night Before",
+      "season": 3,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2022-04-12",
+      "runtime": 30
+     },
+     {
+      "id": 2308364,
+      "name": "The Affair",
+      "season": 3,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2022-04-19",
+      "runtime": 30
+     },
+     {
+      "id": 2311063,
+      "name": "Stranger on a Train",
+      "season": 3,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2022-04-26",
+      "runtime": 30
+     },
+     {
+      "id": 2316063,
+      "name": "The Haunting",
+      "season": 3,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2022-05-03",
+      "runtime": 30
+     },
+     {
+      "id": 2323280,
+      "name": "The Reunion",
+      "season": 3,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2022-05-10",
+      "runtime": 30
+     },
+     {
+      "id": 2323333,
+      "name": "Halloween",
+      "season": 3,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2022-05-17",
+      "runtime": 30
+     },
+     {
+      "id": 2323336,
+      "name": "The Agreement",
+      "season": 3,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2022-05-18",
+      "runtime": 50
+     }
+    ],
+    "cast": [
+     {
+      "person": {
+       "id": 128468,
+       "name": "Saoirse-Monica Jackson"
+      },
+      "character": {
+       "id": 477867,
+       "name": "Erin Quinn"
+      }
+     },
+     {
+      "person": {
+       "id": 103876,
+       "name": "Tommy Tiernan"
+      },
+      "character": {
+       "id": 477869,
+       "name": "Gerry Quinn"
+      }
+     },
+     {
+      "person": {
+       "id": 14138,
+       "name": "Ian McElhinney"
+      },
+      "character": {
+       "id": 477870,
+       "name": "Granda Joe"
+      }
+     },
+     {
+      "person": {
+       "id": 193030,
+       "name": "Louisa Harland"
+      },
+      "character": {
+       "id": 477871,
+       "name": "Orla McCool"
+      }
+     },
+     {
+      "person": {
+       "id": 72647,
+       "name": "Kathy Kiera Clarke"
+      },
+      "character": {
+       "id": 497966,
+       "name": "Sarah McCool"
+      }
+     },
+     {
+      "person": {
+       "id": 39476,
+       "name": "Tara Lynne O'Neill"
+      },
+      "character": {
+       "id": 497970,
+       "name": "Mary Quinn"
+      }
+     },
+     {
+      "person": {
+       "id": 193031,
+       "name": "Nicola Coughlan"
+      },
+      "character": {
+       "id": 477872,
+       "name": "Clare Devlin"
+      }
+     },
+     {
+      "person": {
+       "id": 96920,
+       "name": "Jamie-Lee O'Donnell"
+      },
+      "character": {
+       "id": 477873,
+       "name": "Michelle Mallon"
+      }
+     },
+     {
+      "person": {
+       "id": 193032,
+       "name": "Dylan Llewellyn"
+      },
+      "character": {
+       "id": 477874,
+       "name": "James Maguire"
+      }
+     },
+     {
+      "person": {
+       "id": 39462,
+       "name": "Siobhán McSweeney"
+      },
+      "character": {
+       "id": 497968,
+       "name": "Sister Michael"
+      }
+     },
+     {
+      "person": {
+       "id": 65512,
+       "name": "Art Campion"
+      },
+      "character": {
+       "id": 499154,
+       "name": "Father Peter"
+      }
+     },
+     {
+      "person": {
+       "id": 59413,
+       "name": "Jamie Beamish"
+      },
+      "character": {
+       "id": 506378,
+       "name": "Ciaran"
+      }
+     }
+    ]
+   }
+  },
+  "41734": {
+   "id": 41734,
+   "url": "https://www.tvmaze.com/shows/41734/girls",
+   "name": "GIRLS",
+   "type": "Scripted",
+   "language": "Mongolian",
+   "genres": [
+    "Comedy"
+   ],
+   "status": "Ended",
+   "runtime": 41,
+   "averageRuntime": 41,
+   "premiered": "2018-06-15",
+   "ended": "2019-10-14",
+   "rating": {
+    "average": null
+   },
+   "network": {
+    "id": 1672,
+    "name": "UBS",
+    "country": {
+     "name": "Mongolia",
+     "code": "MN"
+    }
+   },
+   "webChannel": null,
+   "image": {
+    "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/191/478539.jpg",
+    "original": "https://static.tvmaze.com/uploads/images/original_untouched/191/478539.jpg"
+   },
+   "summary": null,
+   "_embedded": {
+    "episodes": [
+     {
+      "id": 3187406,
+      "name": "Episode 1",
+      "season": 1,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2018-06-15",
+      "runtime": 41
+     },
+     {
+      "id": 3187423,
+      "name": "Episode 1",
+      "season": 2,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2019-10-14",
+      "runtime": 41
+     }
+    ],
+    "cast": []
+   }
+  },
+  "49334": {
+   "id": 49334,
+   "url": "https://www.tvmaze.com/shows/49334/shining-girls",
+   "name": "Shining Girls",
+   "type": "Scripted",
+   "language": "English",
+   "genres": [
+    "Crime",
+    "Thriller",
+    "Supernatural"
+   ],
+   "status": "Ended",
+   "runtime": null,
+   "averageRuntime": 49,
+   "premiered": "2022-04-29",
+   "ended": "2022-06-03",
+   "rating": {
+    "average": 7.6
+   },
+   "network": null,
+   "webChannel": {
+    "id": 310,
+    "name": "Apple TV",
+    "country": null
+   },
+   "image": {
+    "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/406/1015813.jpg",
+    "original": "https://static.tvmaze.com/uploads/images/original_untouched/406/1015813.jpg"
+   },
+   "summary": "<p><b>Shining Girls</b> is a metaphysical thriller, which follows a Chicago reporter who survived a brutal assault only to find her reality shifting as she hunts down her attacker.</p>",
+   "_embedded": {
+    "episodes": [
+     {
+      "id": 2270837,
+      "name": "Cutline",
+      "season": 1,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2022-04-29",
+      "runtime": 54
+     },
+     {
+      "id": 2270838,
+      "name": "Evergreen",
+      "season": 1,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2022-04-29",
+      "runtime": 47
+     },
+     {
+      "id": 2270839,
+      "name": "Overnight",
+      "season": 1,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2022-04-29",
+      "runtime": 60
+     },
+     {
+      "id": 2270840,
+      "name": "Attribution",
+      "season": 1,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2022-05-06",
+      "runtime": 42
+     },
+     {
+      "id": 2272283,
+      "name": "Screamer",
+      "season": 1,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2022-05-13",
+      "runtime": 46
+     },
+     {
+      "id": 2272286,
+      "name": "Bright",
+      "season": 1,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2022-05-20",
+      "runtime": 46
+     },
+     {
+      "id": 2272287,
+      "name": "Offset",
+      "season": 1,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2022-05-27",
+      "runtime": 44
+     },
+     {
+      "id": 2272289,
+      "name": "30",
+      "season": 1,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2022-06-03",
+      "runtime": 53
+     }
+    ],
+    "cast": [
+     {
+      "person": {
+       "id": 35133,
+       "name": "Elisabeth Moss"
+      },
+      "character": {
+       "id": 762454,
+       "name": "Kirby Mazrachi"
+      }
+     },
+     {
+      "person": {
+       "id": 33193,
+       "name": "Jamie Bell"
+      },
+      "character": {
+       "id": 956251,
+       "name": "Harper"
+      }
+     },
+     {
+      "person": {
+       "id": 81439,
+       "name": "Wagner Moura"
+      },
+      "character": {
+       "id": 844389,
+       "name": "Dan Velazquez"
+      }
+     },
+     {
+      "person": {
+       "id": 118,
+       "name": "Chris Chalk"
+      },
+      "character": {
+       "id": 984931,
+       "name": "Marcus"
+      }
+     },
+     {
+      "person": {
+       "id": 135438,
+       "name": "Phillipa Soo"
+      },
+      "character": {
+       "id": 892060,
+       "name": "Jin-Sook Gwansun"
+      }
+     },
+     {
+      "person": {
+       "id": 15173,
+       "name": "Amy Brenneman"
+      },
+      "character": {
+       "id": 955342,
+       "name": "Rachel"
+      }
+     }
+    ]
+   }
+  }
+ }
+}

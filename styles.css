@@ -1,0 +1,362 @@
+/*
+ * Стилі ShowFinder. Готові: змінювати їх для лабораторної не потрібно.
+ * Стани областей #results і #details оформлено класами шаблонів з index.html (.state--loading,
+ * .state--message, .state--error), а область, що завантажується, — атрибутом [aria-busy="true"].
+ *
+ * Палітра й контраст — як у «Мій список» (ЛР-9): текст 15.1 / 13.8, приглушений текст
+ * 5.9 / 7.6, акцент 5.4 / 7.6, помилка 6.0 / 9.7 до 1 у світлій / темній темі.
+ */
+:root {
+  color-scheme: light dark;
+  --bg: light-dark(#f4f5f8, #121418);
+  --surface: light-dark(#ffffff, #1c1f25);
+  --text: light-dark(#1b1f27, #e9ebef);
+  --muted: light-dark(#585f6c, #a9b0bc);
+  --line: light-dark(#d5d9e0, #363b46);
+  --accent: light-dark(#1b5ed0, #82b1ff);
+  --accent-ink: light-dark(#ffffff, #0b1426);
+  --accent-soft: light-dark(#e6eefc, #1d2a44);
+  --danger: light-dark(#b3261e, #ffb4ab);
+  --danger-soft: light-dark(#fcebea, #3b1d1b);
+  --radius: 0.75rem;
+
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+a {
+  color: var(--accent);
+}
+
+.container {
+  width: min(76rem, 100% - 2rem);
+  margin-inline: auto;
+}
+
+:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* ---------- Header і footer ---------- */
+
+.site-header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+}
+
+.site-header__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 1rem;
+  padding-block: 1rem;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.site-tagline {
+  margin: 0;
+  color: var(--muted);
+}
+
+.site-footer {
+  padding-block: 1.5rem 2rem;
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+/* ---------- Дві панелі ---------- */
+
+.layout {
+  display: grid;
+  gap: 1.5rem;
+  padding-block: 1.5rem;
+}
+
+@media (min-width: 60rem) {
+  .layout {
+    grid-template-columns: minmax(20rem, 2fr) 3fr;
+    align-items: start;
+  }
+
+  .pane--details {
+    position: sticky;
+    top: 1rem;
+    max-height: calc(100dvh - 2rem);
+    overflow-y: auto;
+  }
+}
+
+.pane {
+  min-width: 0;
+  padding: 1rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.pane__heading {
+  margin: 0 0 0.5rem;
+  font-size: 1.125rem;
+}
+
+/* ---------- Пошук ---------- */
+
+.search label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+
+.search__row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+input[type='search'] {
+  flex: 1;
+  min-width: 0;
+  min-height: 2.75rem;
+  padding: 0.5rem 0.75rem;
+  font: inherit;
+  color: inherit;
+  background: var(--bg);
+  border: 1px solid var(--muted);
+  border-radius: 0.5rem;
+}
+
+.btn {
+  min-height: 2.75rem;
+  padding: 0.5rem 1rem;
+  font: inherit;
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border: 1px solid var(--accent);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.btn--primary {
+  color: var(--accent-ink);
+  background: var(--accent);
+}
+
+.status {
+  min-height: 1.5em;
+  margin: 0.75rem 0;
+  color: var(--muted);
+}
+
+/* ---------- Області #results і #details ---------- */
+
+.region {
+  min-height: 6rem;
+}
+
+.region[aria-busy='true'] > :not(.state) {
+  opacity: 0.4;
+}
+
+.placeholder {
+  margin: 2rem 0;
+  color: var(--muted);
+  text-align: center;
+}
+
+.state {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.state--loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--muted);
+}
+
+.spinner {
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 3px solid var(--line);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    rotate: 1turn;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .spinner {
+    animation-duration: 3s;
+  }
+}
+
+.state--message {
+  color: var(--muted);
+}
+
+.state--error {
+  padding: 1rem;
+  color: var(--danger);
+  background: var(--danger-soft);
+  border: 1px solid var(--danger);
+  border-radius: 0.5rem;
+}
+
+.state__text {
+  margin: 0 0 0.75rem;
+  font-weight: 600;
+}
+
+/* ---------- Картки результатів ---------- */
+
+.cards {
+  display: grid;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card {
+  display: flex;
+  gap: 0.75rem;
+  width: 100%;
+  padding: 0.5rem;
+  font: inherit;
+  color: inherit;
+  text-align: start;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.card:hover {
+  border-color: var(--accent);
+}
+
+.card__image {
+  flex: none;
+  width: 3.5rem;
+  height: auto;
+  aspect-ratio: 210 / 295;
+  object-fit: cover;
+  border-radius: 0.25rem;
+}
+
+.poster--none {
+  display: block;
+  background: repeating-linear-gradient(45deg, var(--line) 0 0.25rem, transparent 0.25rem 0.5rem);
+}
+
+.card__body {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.card__title {
+  font-weight: 700;
+}
+
+.card__meta,
+.card__genres {
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+/* ---------- Сторінка серіалу ---------- */
+
+.show__head {
+  display: flex;
+  gap: 1rem;
+  align-items: start;
+}
+
+.show__image {
+  flex: none;
+  width: 7rem;
+  height: auto;
+  aspect-ratio: 210 / 295;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.show__intro p {
+  margin: 0.25rem 0;
+}
+
+.show__title {
+  margin: 0 0 0.25rem;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.show__meta,
+.show__genres {
+  color: var(--muted);
+}
+
+.show h3 {
+  margin: 1.5rem 0 0.5rem;
+  font-size: 1.125rem;
+}
+
+.season {
+  border-top: 1px solid var(--line);
+}
+
+.season > summary {
+  padding-block: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.episodes {
+  margin: 0 0 0.75rem;
+  padding-inline-start: 1.25rem;
+}
+
+.episode__code,
+.episode__date {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.cast {
+  columns: 2 14rem;
+  margin: 0;
+  padding-inline-start: 1.25rem;
+}
+
+.cast__role {
+  color: var(--muted);
+}
+
+.empty {
+  color: var(--muted);
+}
