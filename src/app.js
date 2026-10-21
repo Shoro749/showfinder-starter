@@ -11,15 +11,20 @@ export function initApp() {
   const form = document.querySelector('#search');
   const input = document.querySelector('#search-query');
   const results = document.querySelector('#results');
+  const details = document.querySelector('#details');
   const status = document.querySelector('#status');
 
-  if (!(form instanceof HTMLFormElement) || !(input instanceof HTMLInputElement) || !(results instanceof Element) || !(status instanceof Element)) return;
+  if (!(form instanceof HTMLFormElement) || !(input instanceof HTMLInputElement) || !(results instanceof Element) || !(details instanceof Element) || !(status instanceof Element)) return;
 
   let timer = 0;
   let requestNumber = 0;
   /** @type {AbortController | null} */
   let controller = null;
   let lastQuery = '';
+  let detailsController = null;
+  let detailsRequestNumber = 0;
+  let selectedId = null;
+  const showCache = new Map();
 
   const setBusy = (busy) => {
     if (busy) results.setAttribute('aria-busy', 'true');
@@ -34,10 +39,23 @@ export function initApp() {
     results.replaceChildren(content);
   };
 
+  const detailsState = (templateId, message = '') => {
+    const template = document.querySelector(`#${templateId}`);
+    if (!(template instanceof HTMLTemplateElement)) return;
+    const content = template.content.cloneNode(true);
+    if (message) content.querySelector('.state__text, .state--message')?.append(message);
+    details.replaceChildren(content);
+  };
+
   const showError = (message) => {
     setBusy(false);
     state('state-error', message);
     status.textContent = message;
+  };
+
+  const showDetailsError = (message, retry = true) => {
+    detailsState(retry ? 'state-error' : 'state-message', message);
+    details.removeAttribute('aria-busy');
   };
 
   const messageFor = (error) => {
@@ -114,6 +132,48 @@ export function initApp() {
     else timer = window.setTimeout(run, 450);
   };
 
+  const openShow = async (id, force = false) => {
+    selectedId = id;
+    detailsRequestNumber += 1;
+    const current = detailsRequestNumber;
+    detailsController?.abort();
+    detailsController = null;
+
+    if (!force && showCache.has(id)) {
+      details.removeAttribute('aria-busy');
+      renderShow(details, showCache.get(id));
+      return;
+    }
+
+    const requestController = new AbortController();
+    detailsController = requestController;
+    details.setAttribute('aria-busy', 'true');
+    detailsState('state-loading');
+
+    try {
+      let data;
+      for (let attempt = 0; attempt < 2; attempt += 1) {
+        try {
+          data = await getShow(id, { signal: requestController.signal });
+          break;
+        } catch (error) {
+          if (error?.status !== 429 || attempt > 0) throw error;
+          await wait(2500, requestController.signal);
+        }
+      }
+
+      if (current !== detailsRequestNumber || selectedId !== id) return;
+      showCache.set(id, data);
+      renderShow(details, data);
+    } catch (error) {
+      if (error?.name === 'AbortError' || current !== detailsRequestNumber) return;
+      if (error?.status === 404) showDetailsError('Серіал не знайдено', false);
+      else showDetailsError(messageFor(error));
+    } finally {
+      if (current === detailsRequestNumber) details.removeAttribute('aria-busy');
+    }
+  };
+
   input.addEventListener('input', () => void search());
   form.addEventListener('submit', (event) => {
     event.preventDefault();
@@ -122,6 +182,21 @@ export function initApp() {
 
   results.addEventListener('click', (event) => {
     const target = event.target;
-    if (target instanceof HTMLButtonElement && target.dataset.action === 'retry') void search(true);
+    if (!(target instanceof Element)) return;
+    const button = target.closest('button');
+    if (!(button instanceof HTMLButtonElement)) return;
+    if (button.dataset.action === 'retry') void search(true);
+    if (button.dataset.action === 'open') {
+      const card = button.closest('[data-id]');
+      const id = Number(card?.getAttribute('data-id'));
+      if (Number.isInteger(id)) void openShow(id);
+    }
+  });
+
+  details.addEventListener('click', (event) => {
+    const target = event.target;
+    if (target instanceof HTMLButtonElement && target.dataset.action === 'retry' && selectedId !== null) {
+      void openShow(selectedId, true);
+    }
   });
 }

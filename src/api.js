@@ -38,5 +38,23 @@ export async function searchShows(query, { signal } = {}) {
  * @returns {Promise<{ show: object, episodes: object[], cast: object[] }>}
  */
 export async function getShow(id, { signal } = {}) {
-  // TODO C2
+  const params = new URLSearchParams();
+  params.append('embed[]', 'episodes');
+  params.append('embed[]', 'cast');
+  const response = await fetch(`${API}/shows/${encodeURIComponent(id)}?${params}`, { signal });
+
+  if (!response.ok) {
+    const error = new Error(`TVmaze відповів статусом ${response.status}`);
+    error.status = response.status;
+    throw error;
+  }
+
+  const data = await response.json();
+  const embedded = data?._embedded;
+  if (!data || typeof data !== 'object' || !embedded || !Array.isArray(embedded.episodes) || !Array.isArray(embedded.cast)) {
+    throw new TypeError('TVmaze повернув некоректні дані серіалу');
+  }
+
+  const { _embedded, ...show } = data;
+  return { show, episodes: _embedded.episodes, cast: _embedded.cast };
 }
