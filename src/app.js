@@ -111,7 +111,7 @@ export function initApp() {
     };
 
     if (immediate) await run();
-    else timer = window.setTimeout(run, 300);
+    else timer = window.setTimeout(run, 450);
   };
 
   input.addEventListener('input', () => void search());
