@@ -15,7 +15,18 @@ export const API = 'https://api.tvmaze.com';
  * @returns {Promise<object[]>}
  */
 export async function searchShows(query, { signal } = {}) {
-  // TODO C1
+  const params = new URLSearchParams({ q: query.trim() });
+  const response = await fetch(`${API}/search/shows?${params}`, { signal });
+
+  if (!response.ok) {
+    const error = new Error(`TVmaze відповів статусом ${response.status}`);
+    error.status = response.status;
+    throw error;
+  }
+
+  const data = await response.json();
+  if (!Array.isArray(data)) throw new TypeError('TVmaze повернув некоректні дані пошуку');
+  return data.map((result) => result.show);
 }
 
 /**
